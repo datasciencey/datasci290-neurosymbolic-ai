@@ -110,6 +110,14 @@
           id: ''
           name: "R code for lecture example problems"
           href: "./code/Lec12.R"
+- week: 7
+  days:
+    - date: 'Oct 9'
+      items:
+        - type: 'Lecture'
+          id: '13'
+          name: "Linear Regression I"
+          href: "./slides/Lecture13_STAT131A.pdf"
 #- week: 2
 #  days:
 #    - date: 'Sep 29'

@@ -123,7 +123,7 @@
     - date: 'Oct 14'
       items:
         - type: 'Lecture'
-          id: '13'
+          id: '14'
           name: "Curve Fitting II"
           href: "./slides/Lecture14_STAT131A.pdf"
         - type: 'R code'

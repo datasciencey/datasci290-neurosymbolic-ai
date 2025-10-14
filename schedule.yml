@@ -118,6 +118,18 @@
           id: '13'
           name: "Linear Regression I"
           href: "./slides/Lecture13_STAT131A.pdf"
+- week: 8
+  days:
+    - date: 'Oct 14'
+      items:
+        - type: 'Lecture'
+          id: '13'
+          name: "Curve Fitting II"
+          href: "./slides/Lecture14_STAT131A.pdf"
+        - type: 'R code'
+          id: ''
+          name: "R code for lecture example problems"
+          href: "./code/Lec14.R"
 #- week: 2
 #  days:
 #    - date: 'Sep 29'

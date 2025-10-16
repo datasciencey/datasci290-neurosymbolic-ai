@@ -130,6 +130,14 @@
           id: ''
           name: "R code for lecture example problems"
           href: "./code/Lec14.R"
+- week: 8
+  days:
+    - date: 'Oct 16'
+      items:
+        - type: 'Lecture'
+          id: '15'
+          name: "Curve Fitting III"
+          href: "./slides/Lecture15_STAT131A.pdf"
 #- week: 2
 #  days:
 #    - date: 'Sep 29'

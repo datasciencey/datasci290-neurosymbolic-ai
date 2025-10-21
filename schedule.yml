@@ -138,6 +138,18 @@
           id: '15'
           name: "Curve Fitting III"
           href: "./slides/Lecture15_STAT131A.pdf"
+- week: 9
+  days:
+    - date: 'Oct 21'
+      items:
+        - type: 'Lecture'
+          id: '16'
+          name: "Curve Fitting IV"
+          href: "./slides/Lecture16_STAT131A.pdf"
+        - type: 'R code'
+          id: ''
+          name: "R code for lecture example problems"
+          href: "./code/Lec16.R"
 #- week: 2
 #  days:
 #    - date: 'Sep 29'

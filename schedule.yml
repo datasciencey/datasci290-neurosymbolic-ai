@@ -150,6 +150,14 @@
           id: ''
           name: "R code for lecture example problems"
           href: "./code/Lec16.R"
+- week: 9
+  days:
+    - date: 'Oct 23'
+      items:
+        - type: 'Lecture'
+          id: '17'
+          name: "Midterm Guidance"
+          href: "./slides/Lecture17_STAT131A.pdf"
 #- week: 2
 #  days:
 #    - date: 'Sep 29'

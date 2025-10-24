@@ -10,26 +10,27 @@ Basically this course covers the fundamental concepts, practical “hammers”, 
 
 
 ## Topics and Semester Schedule
+[The section references at the end of each lecture are to sections in the Purdom textbook]
 
 Week 1: The First Lecture ! (Introduction)
 
-Week 2: Central Tendencies: Mean, Median, Mode | Visualization: The Boxplot
+Week 2: Central Tendencies: Mean, Median, Mode | Visualization: The Boxplot (2.1)
 
-Week 3: Probabilistic Distributions
+Week 3: Probabilistic Distributions (2.2, 2.3)
 
-Week 4: Kernel Density Estimation | The Central Limit Theorem
+Week 4: Kernel Density Estimation | The Central Limit Theorem (2.4, 2.5)
 
-Week 5: Hypothesis Testing I & II
+Week 5: Hypothesis Testing I & II (3.1-3.6)
 
-Week 6: Hypothesis Testing III & IV
+Week 6: Hypothesis Testing III & IV (3.6-3.10)
 
-Week 7: Hypothesis Testing V | Linear Regression - Introduction
+Week 7: Hypothesis Testing V | Linear Regression - Introduction (3.10, 4.1)
 
-Week 8: Linear Regression - Least squares | Linear Regression - Local fitting 
+Week 8: Linear Regression - Least squares | Linear Regression - Local fitting (4.1-4.4)
 
-Week 9: Multivariate Data | Revision & Discussion for MIDTERM Exam
+Week 9: Multiple Regression | Revision & Discussion for MIDTERM Exam (6.1)
 
-Week 10: Multiple Regression | MIDTERM Exam (from Week 1, up to and including Linear Regression - Least squares)
+Week 10: 10/28 - NO Lecture | 10/30 - MIDTERM Exam (from Week 2, up to and including Linear Regression - Least squares: Lectures 4-13)
 
 Week 11: Principal Components Analysis | Logistic regression I
 

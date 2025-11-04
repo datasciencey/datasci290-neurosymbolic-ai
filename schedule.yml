@@ -158,6 +158,14 @@
           id: '17'
           name: "Midterm Guidance"
           href: "./slides/Lecture17_STAT131A.pdf"
+- week: 11
+  days:
+    - date: 'Nov 3'
+      items:
+        - type: 'Lecture'
+          id: '18'
+          name: "Multiple Linear Regression I"
+          href: "./slides/Lecture18_STAT131A.pdf"
 #- week: 2
 #  days:
 #    - date: 'Sep 29'

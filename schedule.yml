@@ -160,12 +160,20 @@
           href: "./slides/Lecture17_STAT131A.pdf"
 - week: 11
   days:
-    - date: 'Nov 3'
+    - date: 'Nov 4'
       items:
         - type: 'Lecture'
           id: '18'
           name: "Multiple Linear Regression I"
           href: "./slides/Lecture18_STAT131A.pdf"
+- week: 12
+  days:
+    - date: 'Nov 6'
+      items:
+        - type: 'Lecture'
+          id: '19'
+          name: "Multiple Linear Regression II: Measuring Fit"
+          href: "./slides/Lecture19_STAT131A.pdf"
 #- week: 2
 #  days:
 #    - date: 'Sep 29'

@@ -32,7 +32,27 @@ Week 9: Multiple Regression | Revision & Discussion for MIDTERM Exam (6.1)
 
 Week 10: 10/28 - NO Lecture | 10/30 - MIDTERM Exam (from Week 2, up to and including Linear Regression - Least squares: Lectures 4-13)
 
+------ POST MIDTERM & THROUGH END of COURSE -------
 
+Lecture 19 (Nov 6): Multiple Linear Regression II
+
+Lecture 20 (Nov 13): Final Project Overview & Discussion
+
+Lecture 21 (Nov 18): Logistic Regression I (this will a RECORDED lecture/NO in-person class)
+
+Lecture 22 (Nov 20): Logistic Regression II (this will a RECORDED lecture/NO in-person class)
+
+Nov 25 & 27: NO CLASS (Please work on the Final Project !)
+
+Dec 2:  Final Project Mid-flight Discussion | Decision Trees (Benign Introduction) 
+
+Dec 4:  STAT131A Full Course Recap - Our Takeaways 
+
+Dec 9:  Final Exam Description & Discussion
+
+Dec 11:  Final Exam prep questions (online)
+
+Dec 18: FINAL EXAM
 
   
 ## Grades

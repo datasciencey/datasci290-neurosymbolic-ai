@@ -181,7 +181,7 @@
         - type: 'Lecture'
           id: '20'
           name: "Final Project: Overview"
-          href: "./slides/Lecture20_STAT131A.pdf"
+          href: "./slides/Lecture20_STAT131A.pdf" 
 #- week: 2
 #  days:
 #    - date: 'Sep 29'

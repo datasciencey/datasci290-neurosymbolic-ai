@@ -32,19 +32,6 @@ Week 9: Multiple Regression | Revision & Discussion for MIDTERM Exam (6.1)
 
 Week 10: 10/28 - NO Lecture | 10/30 - MIDTERM Exam (from Week 2, up to and including Linear Regression - Least squares: Lectures 4-13)
 
-Week 11: Principal Components Analysis | Logistic regression I
-
-Week 12: Logistic regression II | Classification Trees I
-
-Week 13: Final project - Introduction | Classification Trees II 
-
-Week 14: Thanksgiving Break
-
-Week 15: Causal Inference | Revision & Discussion for FINAL EXAM
-
-Week 16: Recap of semester journey | Final project - Discussion 
-
-Week 17 : FINAL EXAM
 
 
   

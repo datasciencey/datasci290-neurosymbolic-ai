@@ -40,10 +40,10 @@ Nov 6: Multiple Linear Regression II
 Nov 13: Final Project Overview & Discussion
 
 
-Nov 18: Logistic Regression I (this will a RECORDED lecture/NO in-person class)
+Nov 18: Logistic Regression I (this will be a RECORDED lecture/NO in-person class)
 
 
-Nov 20: Logistic Regression II (this will a RECORDED lecture/NO in-person class)
+Nov 20: Logistic Regression II (this will be a RECORDED lecture/NO in-person class)
 
 
 Nov 25 & 27: NO CLASS (Please work on the Final Project !)

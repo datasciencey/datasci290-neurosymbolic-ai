@@ -182,6 +182,14 @@
           id: '20'
           name: "Final Project: Overview"
           href: "./slides/Lecture20_STAT131A.pdf" 
+- week: 14
+  days:
+    - date: 'Nov 18'
+      items:
+        - type: 'Lecture'
+          id: '21'
+          name: "Logistic Regression I (recorded mp4)"
+          href: "https://drive.google.com/file/d/1An1P-PoQkIjEspW0pRgx7opgST62vP5K/view?usp=sharing" 
 #- week: 2
 #  days:
 #    - date: 'Sep 29'

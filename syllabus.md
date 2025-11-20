@@ -61,7 +61,7 @@ Dec 9:  Final Exam Description & Discussion
 Dec 11:  Final Exam prep questions (online)
 
 
-Dec 18: FINAL EXAM
+Dec 17: FINAL EXAM
 
   
 ## Grades

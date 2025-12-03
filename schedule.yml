@@ -188,8 +188,16 @@
       items:
         - type: 'Lecture'
           id: '21'
-          name: "Logistic Regression I (recorded mp4)"
-          href: "https://drive.google.com/file/d/1An1P-PoQkIjEspW0pRgx7opgST62vP5K/view?usp=sharing" 
+          name: "Logistic Regression I"
+          href: "./slides/Lecture21_STAT131A.pdf" 
+- week: 14
+  days:
+    - date: 'Nov 20'
+      items:
+        - type: 'Lecture'
+          id: '22'
+          name: "Logistic Regression II"
+          href: "./slides/Lecture22_STAT131A.pdf" 
 #- week: 2
 #  days:
 #    - date: 'Sep 29'

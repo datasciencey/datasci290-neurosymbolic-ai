@@ -1,4 +1,5 @@
-![Neurosymbolic AI — Building Consequence-Aware Cognitive Agents](images/data290course.png)
+<img src="images/data290course.png" alt="Neurosymbolic AI — Building Consequence-Aware Cognitive Agents" width="25%" height="25%">
+
 
 
 ## Course Description

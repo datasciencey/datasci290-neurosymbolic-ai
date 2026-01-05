@@ -7,16 +7,14 @@
     </td>
     <td style="vertical-align:top;">
       <p>
-        This GitHub resource is a for-the-elements-I-am-allowed-to-share
-        (syllabus, readings, and lecture slides = yes; recordings = no)
-        open-access resource for <strong>DATASCI 290: Neurosymbolic AI — Building
-        Consequence-Aware Cognitive Agents</strong>, an elective course I am
-        teaching at the Information School at UC Berkeley in Spring 2026
-        (Masters in Data Science: MIDS program).
+        <i> This is an 
+        open-access resource for a subset of the materials (syllabus, readings, lecture slides) for  DATASCI 290: Neurosymbolic AI — Building
+        Consequence-Aware Cognitive Agents, an elective course I am
+        teaching at the Information School at UC Berkeley in Spring 2026. </i>
       </p>
       <p>
-        Lecture slides (PDFs) will be added progressively as the spring semester
-        unfolds.
+        <i>Lecture slides (PDFs) will be added progressively as the Spring '26 semester
+        unfolds. <i>
       </p>
     </td>
   </tr>

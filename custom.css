@@ -31,3 +31,30 @@
   padding-bottom: 1rem;
   border-bottom: 1px solid #eee;
 }
+
+/* ================================
+   Layout overrides for single-page site
+   ================================ */
+
+/* Hide top header (bear logo + global nav) */
+.site-header,
+header,
+.navbar {
+  display: none !important;
+}
+
+/* Hide left navigation / course sidebar */
+.sidebar,
+.side-nav,
+.course-nav,
+#sidebar {
+  display: none !important;
+}
+
+/* Expand main content area */
+.main-content,
+.content,
+.page-content {
+  margin-left: 0 !important;
+  max-width: 100% !important;
+}

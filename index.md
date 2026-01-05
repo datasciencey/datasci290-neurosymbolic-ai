@@ -1,9 +1,26 @@
-<img src="images/data290course.png" alt="Neurosymbolic AI — Building Consequence-Aware Cognitive Agents" width="25%" height="25%">
-
-
-
-## Course Description
-This github resource is a for-the-elements-I-am-allowed-to-share (syllabus, readings & lecture slides=Yes; recordings=No) open-access resource for DATASCI 290: Neurosymbolic AI: Building Consequence-Aware Cognitive Agents - an elective course I am teaching at the Information School at UC Berkeley this Spring 2026 (in the Masters in Data Science: MIDS program). I will be adding lecture slides (PDFs) as we go along through the spring semester.
+<table>
+  <tr>
+    <td style="width:40%; vertical-align:top; padding-right:20px;">
+      <img src="images/data290course.png"
+           alt="Neurosymbolic AI — Building Consequence-Aware Cognitive Agents"
+           style="width:40%; max-height:220px; object-fit:cover;">
+    </td>
+    <td style="vertical-align:top;">
+      <p>
+        This GitHub resource is a for-the-elements-I-am-allowed-to-share
+        (syllabus, readings, and lecture slides = yes; recordings = no)
+        open-access resource for <strong>DATASCI 290: Neurosymbolic AI — Building
+        Consequence-Aware Cognitive Agents</strong>, an elective course I am
+        teaching at the Information School at UC Berkeley in Spring 2026
+        (Masters in Data Science: MIDS program).
+      </p>
+      <p>
+        Lecture slides (PDFs) will be added progressively as the spring semester
+        unfolds.
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## Course Description
 This course explores neurosymbolic artificial intelligence (AI), an emerging approach that integrates the statistical power of modern machine learning with the rigor and transparency of symbolic reasoning. While large language models excel at generating fluent responses, they often lack reliability, consistency, and grounding in verified knowledge. These limitations make them risky for use in domains such as healthcare, emergency response, and fact-checking, where errors or omissions can carry significant consequences. Neurosymbolic AI addresses these challenges by combining data-driven learning with explicit rules, logical inference, and structured knowledge to create AI systems that are both powerful and trustworthy.

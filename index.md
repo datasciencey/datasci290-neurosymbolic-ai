@@ -1,9 +1,9 @@
 <table>
   <tr>
-    <td style="width:40%; vertical-align:top; padding-right:20px;">
+    <td style="width:20%; vertical-align:top; padding-right:20px;">
       <img src="images/data290course.png"
            alt="Neurosymbolic AI — Building Consequence-Aware Cognitive Agents"
-           style="width:40%; max-height:220px; object-fit:cover;">
+           style="width:100%; max-height:220px; object-fit:cover;">
     </td>
     <td style="vertical-align:top;">
       <p>

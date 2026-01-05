@@ -6,6 +6,13 @@ This course explores neurosymbolic artificial intelligence (AI), an emerging app
 
 Designed for working professionals, this course equips students with the expertise to design and implement trustworthy cognitive agents. Participants will begin by exploring foundational theories of human reasoning, drawing on the work of Kahneman and Tversky on dual-process cognition and biases in judgment. Building on this foundation, the course dives into practical architectures for combining neural and symbolic components, with an emphasis on knowledge representation, logic programming, and deductive reasoning. Students will gain hands-on experience with modern frameworks, where they will learn to construct knowledge graphs, encode rules, and integrate large language models with symbolic verifiers. The course culminates in a team-based project where students develop an end-to-end neurosymbolic agent in a real-world domain, preparing them to critically assess and build next-generation AI solutions for high-consequence applications.
 
+## Lecture Slides
+
+- **Lecture 1:** [AI Agents, with Consequences](slides/lecture01-ai-agents-with-consequences.pdf)
+- **Lecture 2:** [Engineering Consequence-Aware Cognitive Agents](slides/lecture02-consequence-aware-agents.pdf)
+- **Lecture 3:** [From Fast Guesses to Accountable Decisions](slides/lecture03-fast-vs-accountable.pdf)
+- **Lecture 4:** [The Value of Structured Knowledge](slides/lecture04-structured-knowledge.pdf)
+
 
 ## Lectures
 

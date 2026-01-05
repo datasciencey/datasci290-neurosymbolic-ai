@@ -1,3 +1,6 @@
+![Neurosymbolic AI — Building Consequence-Aware Cognitive Agents](images/data290course.png)
+
+
 ## Course Description
 This github resource is a for-the-elements-I-am-allowed-to-share (syllabus, readings & lecture slides=Yes; recordings=No) open-access resource for DATASCI 290: Neurosymbolic AI: Building Consequence-Aware Cognitive Agents - an elective course I am teaching at the Information School at UC Berkeley this Spring 2026 (in the Masters in Data Science: MIDS program). I will be adding lecture slides (PDFs) as we go along through the spring semester.
 

@@ -1,5 +1,10 @@
 /* Staff page styling */
 
+html, body {
+  font-family: "Palatino Linotype", Palatino, Georgia, "Times New Roman", Times, serif !important;
+}
+
+
 .staff-person-card {
   display: flex;
   gap: 1.5rem;

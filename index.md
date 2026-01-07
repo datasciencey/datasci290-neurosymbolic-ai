@@ -3,16 +3,25 @@ layout: default
 title: Neurosymbolic AI
 ---
 
-<table>
+<table style="border-collapse:collapse; border:0; width:100%;">
   <tr>
-    <td>
-      <img src="images/nsai.png">
+    <td style="border:0; padding:0 16px 0 0; vertical-align:top; width:260px;">
+      <img src="images/nsai.png"
+           alt="Neurosymbolic AI banner"
+           style="display:block; width:240px; max-width:100%; height:auto; border:0;" />
     </td>
-    <td>
-<i>This is an open-access resource for a subset of the materials (syllabus, readings, lecture slides) for  DATASCI 290: Neurosymbolic AI — Building Consequence-Aware Cognitive Agents, an elective course I am teaching at the Information School at UC Berkeley in Spring 2026.</i>
+    <td style="border:0; padding:0; vertical-align:top;">
+      <p style="margin:0; font-family: 'Georgia', 'Times New Roman', Times, serif; font-size: 16px; line-height: 1.45;">
+        <em>
+          This is an open-access resource for a subset of the materials (syllabus, readings, lecture slides) for
+          DATASCI 290: Neurosymbolic AI: Building Consequence-Aware Cognitive Agents, an elective course I am teaching
+          at the Information School at UC Berkeley in Spring 2026.
+        </em>
+      </p>
     </td>
   </tr>
 </table>
+
 ## Course Description
 This course explores neurosymbolic artificial intelligence (AI), an emerging approach that integrates the statistical power of modern machine learning with the rigor and transparency of symbolic reasoning. While large language models excel at generating fluent responses, they often lack reliability, consistency, and grounding in verified knowledge. These limitations make them risky for use in domains such as healthcare, emergency response, and fact-checking, where errors or omissions can carry significant consequences. Neurosymbolic AI addresses these challenges by combining data-driven learning with explicit rules, logical inference, and structured knowledge to create AI systems that are both powerful and trustworthy.
 

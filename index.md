@@ -1,24 +1,126 @@
-<link rel="stylesheet" href="custom.css">
+---
+layout: null
+---
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DATASCI 290 — Neurosymbolic AI</title>
 
-<table style="border-collapse:collapse; border:0; width:100%;">
-  <tr>
-    <td style="border:0; padding:0 16px 0 0; vertical-align:top; width:260px;">
-      <img src="images/nsai.png"
-           alt="Neurosymbolic AI banner"
-           style="display:block; width:240px; max-width:100%; height:auto; border:0;" />
-    </td>
-    <td style="border:0; padding:0; vertical-align:top;">
-      <p style="margin:0; font-family: 'Georgia', 'Times New Roman', Times, serif; font-size: 16px; line-height: 1.45;">
-        <em>
-          This is an open-access resource for a subset of the materials (syllabus, readings, lecture slides) for
-          DATASCI 290: Neurosymbolic AI: Building Consequence-Aware Cognitive Agents, an elective course I am teaching
-          at the Information School at UC Berkeley in Spring 2026.
-        </em>
-      </p>
-    </td>
-  </tr>
-</table>
+  <style>
+    :root {
+      --text: #111;
+      --muted: #444;
+      --link: #0b57d0;
+      --link-hover: #083a8c;
+      --bg: #ffffff;
+      --border: #e6e6e6;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Palatino Linotype", Palatino, Georgia, "Times New Roman", Times, serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* Prevent any theme-ish default rules from leaking in (including random HR-like borders) */
+    hr, table, tr, td, th {
+      border: 0 !important;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 18px 60px;
+    }
+
+    .hero {
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+    }
+
+    .hero img {
+      width: 240px;          /* <-- adjust smaller/larger here */
+      max-width: 38vw;
+      height: auto;
+      display: block;
+      border: 0;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 1.2;
+      margin: 0 0 8px 0;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin: 0 0 14px 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .note {
+      margin: 0;
+      font-style: italic;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    a:hover {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+
+    .section h2 {
+      font-size: 18px;
+      margin: 0 0 10px 0;
+      font-weight: 700;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    li { margin: 6px 0; }
+
+    /* Mobile */
+    @media (max-width: 720px) {
+      .hero { flex-direction: column; }
+      .hero img { width: 220px; max-width: 70vw; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <div class="hero">
+      <img src="images/nsai.png" alt="Neurosymbolic AI banner" />
+      <div>
+        <h1>DATASCI 290: Neurosymbolic AI — Building Consequence-Aware Cognitive Agents</h1>
+        <p class="subtitle">UC Berkeley · Information School · Spring 2026</p>
+        <p class="note">
+          This is an open-access resource for a subset of the course materials (syllabus, readings, lecture slides).
+        </p>
+      </div>
+    </div>
 
 ## Course Description
 This course explores neurosymbolic artificial intelligence (AI), an emerging approach that integrates the statistical power of modern machine learning with the rigor and transparency of symbolic reasoning. While large language models excel at generating fluent responses, they often lack reliability, consistency, and grounding in verified knowledge. These limitations make them risky for use in domains such as healthcare, emergency response, and fact-checking, where errors or omissions can carry significant consequences. Neurosymbolic AI addresses these challenges by combining data-driven learning with explicit rules, logical inference, and structured knowledge to create AI systems that are both powerful and trustworthy.
@@ -230,5 +332,6 @@ Practical neurosymbolic systems like LINC and Logic-LM integrate language models
 - Ganguly et al. (2024). *PROOF OF THOUGHT: Neurosymbolic Program Synthesis allows Robust and Interpretable Reasoning*. NeurIPS'24 Workshop on System-2 Reasoning. https://openreview.net/forum?id=Pxx3r14j3UL Links to an external site.
 - Besta et al. (2024). *Graph of Thoughts: Solving elaborate problems with large language models*. PVLDB 17(10), 2411-2425. https://vldb.org/pvldb/vol17/p2411-besta.pdf Links to an external site.
 - Sun et al. (2024). *Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph*. ICLR 2024. https://openreview.net/forum?id=nnVO1PvbTv Links to an external site.
-
-
+</main>
+</body>
+</html>

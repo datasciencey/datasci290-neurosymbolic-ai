@@ -103,8 +103,8 @@ layout: null
     <div class="hero">
       <img src="images/nsai.png" alt="Neurosymbolic AI banner" />
       <div>
-        <h1>Neurosymbolic AI: Building Consequence-Aware Cognitive Agents</h1>
-         <i>This is an open-access resource for a subset of the course materials that I am at liberty to share - the course topics, specific readings, and lecture slides for DATASCI 290: Neurosymbolic AI: Building Consequence-Aware Cognitive Agents, that I am teaching at UC Berkeley this Spring '26. I will keep adding lecture slides as we progress through the semester. </i> <a href="https://www.linkedin.com/in/naveenashish/">Naveen Ashish</a> (Instructor) 
+        <h2>Neurosymbolic AI: Building Consequence-Aware Cognitive Agents</h2>
+         <i>This is an open-access resource for a subset (the course topics, specific readings, and lecture slides) of the course materials for DATASCI 290: Neurosymbolic AI: Building Consequence-Aware Cognitive Agents, offered at UC Berkeley Spring 2026. Lecture slides will be added progressively as we run through through the Spring '26 semester. </i> <a href="https://www.linkedin.com/in/naveenashish/">Naveen Ashish</a> (Instructor) 
         
       </div>
     </div>

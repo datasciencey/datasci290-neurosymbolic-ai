@@ -1,7 +1,3 @@
----
-layout: default
-title: Neurosymbolic AI
----
 
 
 <table style="border-collapse:collapse; border:0; width:100%;">

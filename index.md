@@ -3,9 +3,16 @@ layout: default
 title: Neurosymbolic AI
 ---
 
-
+<table>
+  <tr>
+    <td>
+      <img src="images/nsai.png">
+    </td>
+    <td>
 <i>This is an open-access resource for a subset of the materials (syllabus, readings, lecture slides) for  DATASCI 290: Neurosymbolic AI — Building Consequence-Aware Cognitive Agents, an elective course I am teaching at the Information School at UC Berkeley in Spring 2026.</i>
-
+    </td>
+  </tr>
+</table>
 ## Course Description
 This course explores neurosymbolic artificial intelligence (AI), an emerging approach that integrates the statistical power of modern machine learning with the rigor and transparency of symbolic reasoning. While large language models excel at generating fluent responses, they often lack reliability, consistency, and grounding in verified knowledge. These limitations make them risky for use in domains such as healthcare, emergency response, and fact-checking, where errors or omissions can carry significant consequences. Neurosymbolic AI addresses these challenges by combining data-driven learning with explicit rules, logical inference, and structured knowledge to create AI systems that are both powerful and trustworthy.
 

@@ -1,13 +1,3 @@
-<style>
-  html, body {
-    font-family: "Palatino Linotype", Palatino, Georgia, "Times New Roman", Times, serif;
-    font-size: 16px;
-    line-height: 1.55;
-    color: #111;
-  }
-</style>
-
-
 ---
 layout: default
 title: Neurosymbolic AI

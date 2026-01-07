@@ -103,10 +103,10 @@ layout: null
     <div class="hero">
       <img src="images/nsai.png" alt="Neurosymbolic AI banner" />
       <div>
-        <h1>DATASCI 290: Neurosymbolic AI — Building Consequence-Aware Cognitive Agents</h1>
-        <p class="subtitle">UC Berkeley · Information School · Spring 2026</p>
+        <h1>Neurosymbolic AI: Building Consequence-Aware Cognitive Agents</h1>
+        <p class="subtitle">Instructor: <a herf="https://www.linkedin.com/in/naveenashish/">Naveen Ashish</a></p>
         <p class="note">
-          This is an open-access resource for a subset of the course materials (syllabus, readings, lecture slides).
+          This is an open-access resource for a subset of the course materials that I am at liberty to share - the course topics, specific readings, and lecture slides for DATASCI 290: Neurosymbolic AI: Building Consequence-Aware Cognitive Agents, that I am teaching at UC Berkeley this Spring '26. I will keep adding lecture slides as we proceed through the semester.
         </p>
       </div>
     </div>

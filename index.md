@@ -1,7 +1,3 @@
----
-layout: default
-title: Neurosymbolic AI
----
 <style>
   html, body {
     font-family: "Palatino Linotype", Palatino, Georgia, "Times New Roman", Times, serif;
@@ -10,6 +6,12 @@ title: Neurosymbolic AI
     color: #111;
   }
 </style>
+
+
+---
+layout: default
+title: Neurosymbolic AI
+---
 
 
 <table style="border-collapse:collapse; border:0; width:100%;">

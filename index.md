@@ -144,10 +144,8 @@ layout: null
     <section class="section" id="lecture-slides">
       <h2>Lecture Slides</h2>
       <ul>
-        <li><strong>Lecture 1:</strong> <a href="slides/lecture01-ai-agents-with-consequences.pdf">AI Agents, with Consequences</a></li>
-        <li><strong>Lecture 2:</strong> <a href="slides/lecture02-consequence-aware-agents.pdf">Engineering Consequence-Aware Cognitive Agents</a></li>
-        <li><strong>Lecture 3:</strong> <a href="slides/lecture03-fast-vs-accountable.pdf">From Fast Guesses to Accountable Decisions</a></li>
-        <li><strong>Lecture 4:</strong> <a href="slides/lecture04-structured-knowledge.pdf">The Value of Structured Knowledge</a></li>
+        <li>Jan 5<strong>Lecture 1:</strong> <a href="slides/DATASC290_Lecture1.pdf">Introduction, to Neurosymbolic AI and Consequence-Aware Cognitibe Agents</a></li>
+        <li>Jan 7<strong>Lecture 2:</strong> <a href="slides/DATASC290_Lecture2.pdf.pdf">The Need from AI for Medical/Health Applications</a></li>
       </ul>
     </section>
 

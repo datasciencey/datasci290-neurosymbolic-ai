@@ -1,50 +1,15 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
-project:
-  title: "Stat 131a"
-  description: "Statistical Inferences for Social and Life Scientists"
-  keywords: []
-  #authors: ['Instructor Name']
-  license:
-    # code: MIT
-    content: CC-BY-4.0
-  github: https://github.com/berkeley-stat131a/fall-2025
-  # bibliography: []
-  #jupyter:
-  #  lite: true
-  #thebe:
-  #  lite: true
-    #local:
-    #  url: http://localhost:8888
-    #  token: test-secret
-    #server: true
-    #  url: http://localhost:8888
-    #  token: test-secret
-  plugins:
-  - schedule.mjs
-  - staff.mjs
-  toc:
-  - file: index.md
-  - file: syllabus.md
-  - file: staff.md
-  #- file: calendar
-  #authors:
-  #- Instructor Name
-  bibliography: references.bib
-site:
-  template: book-theme
-  title: "Stat 131a"
-  options:
-    logo: 'stat_bear.png'
-    style: custom.css
-  nav: []
-  actions:
-  - title: bCourses
-    url: https://bcourses.berkeley.edu/courses/1549075
-  - title: Ed
-    url: https://edstem.org/us/courses/88392/discussion
-  - title: Gradescope
-    url: https://www.gradescope.com/courses/564792
-  domains:
-  - stat131a.berkeley.edu
 
+project:
+  title: "DATASCI 290: Neurosymbolic AI"
+  description: "Neurosymbolic AI — Building Consequence-Aware Cognitive Agents"
+  toc:
+    - file: index.md
+
+site:
+  template: article-theme
+  title: "DATASCI 290"
+  nav: []
+  actions: []
+  options:
+    style: custom.css

@@ -7,7 +7,7 @@ layout: null
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>DATASCI 290 — Neurosymbolic AI</title>
+  <title>Neurosymbolic AI: Building Consequence-Aware Cognitive Agents</title>
 
   <style>
     :root{

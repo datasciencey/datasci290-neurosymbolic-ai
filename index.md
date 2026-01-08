@@ -145,7 +145,7 @@ layout: null
       <h2>Lecture Slides</h2>
       <ul>
         <li><strong>Lecture 1:</strong> <i> (Jan 5) </i><a href="slides/DATASCI290_Lecture1.pdf">Introduction, to Neurosymbolic AI and Consequence-Aware Cognitive Agents</a></li>
-        <li><strong>Lecture 2:</strong> <i> (Jan 7) </i><a href="slides/DATASCI290_Lecture2.pdf.pdf">Healthcare: A Compelling Need for Neurosymbolic AI Solutions</a></li>
+        <li><strong>Lecture 2:</strong> <i> (Jan 7) </i><a href="slides/DATASCI290_Lecture2.pdf">Healthcare: A Compelling Need for Neurosymbolic AI Solutions</a></li>
       </ul>
     </section>
 

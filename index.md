@@ -146,6 +146,7 @@ layout: null
       <ul>
         <li><strong>Lecture 1:</strong> <i> (Jan 5) </i><a href="slides/DATASCI290_Lecture1.pdf">Introduction, to Neurosymbolic AI and Consequence-Aware Cognitive Agents</a></li>
         <li><strong>Lecture 2:</strong> <i> (Jan 7) </i><a href="slides/DATASCI290_Lecture2.pdf">Healthcare: A Compelling Need for Neurosymbolic AI Solutions</a></li>
+        <li><strong>Lecture 3:</strong> <i> (Jan 12) </i><a href="slides/DATASCI290_Lecture3.pdf">Trustworthiness, Cognitive Architectures, Language Agents</a></li>
       </ul>
     </section>
 
@@ -186,7 +187,7 @@ layout: null
       </div>
 
       <div class="lecture" id="lecture-03">
-        <h3>Lecture 3: From Fast Guesses to Accountable Decisions</h3>
+        <h3>Lecture 3: Trustworthiness, Cognitive Architectures, Language Agents</h3>
         <p>
           Modern LLMs excel at fast, fluent responses but high-consequence domains demand deliberate, verifiable reasoning.
           This lecture translates dual-process cognitive theory into the reference architecture that structures the course:

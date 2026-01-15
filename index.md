@@ -147,7 +147,7 @@ layout: null
         <li><strong>Lecture 1:</strong> <i> (Jan 5) </i><a href="slides/DATASCI290_Lecture1.pdf">Introduction, to Neurosymbolic AI and Consequence-Aware Cognitive Agents</a></li>
         <li><strong>Lecture 2:</strong> <i> (Jan 7) </i><a href="slides/DATASCI290_Lecture2.pdf">Healthcare: A Compelling Need for Neurosymbolic AI Solutions</a></li>
         <li><strong>Lecture 3:</strong> <i> (Jan 12) </i><a href="slides/DATASCI290_Lecture3.pdf">Trustworthiness, Cognitive Architectures, Language Agents</a></li>
-        <li><strong>Lecture 4:</strong> <i> (Jan 14) </i><a href="slides/DATASCI290_Lecture4.pdf">Trustworthiness, Cognitive Architectures, Language Agents (Contd) | Can Knowledge Graphs Reduce Hallucinations in LLMs, and How So ?</a></li>4
+        <li><strong>Lecture 4:</strong> <i> (Jan 14) </i><a href="slides/DATASCI290_Lecture4.pdf">Can Knowledge Graphs Reduce Hallucinations in LLMs, and How So ?</a></li>4
       </ul>
     </section>
 

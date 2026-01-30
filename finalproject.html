@@ -31,7 +31,11 @@ layout: null
     hr { display:none !important; }
     table, tr, td, th { border: 0 !important; }
 
-    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 72px; }
+    /* Enforce a readable "column width" regardless of browser window size */
+    .wrap { max-width: 72ch; margin: 0 auto; padding: 28px 18px 72px; }
+
+    /* Prevent images from overflowing the column on small screens */
+    img { max-width: 100%; height: auto; }
 
     .hero {
       display:flex;
@@ -99,7 +103,8 @@ layout: null
 </head>
 
 <body>
-  <center>
+  <main class="wrap">
+    <center>
 <p>
     <h2>Final Project: CareTrace</h2>
       <img src="images/CareTrace.png"

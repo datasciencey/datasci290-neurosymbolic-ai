@@ -6,9 +6,8 @@ layout: null
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Final Project — CareTrace</title>
+  <title>Final Project: CareTrace</title>
 
-  <!-- Reuse the same styling as index.md by keeping this CSS identical -->
   <style>
     :root{
       --text:#111;
@@ -20,7 +19,6 @@ layout: null
       --card:#fafafa;
     }
 
-    /* Reset: kill theme/browser oddities */
     * { box-sizing: border-box; }
     html, body { margin:0; padding:0; }
     body {
@@ -33,7 +31,6 @@ layout: null
     hr { display:none !important; }
     table, tr, td, th { border: 0 !important; }
 
-    /* Layout */
     .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 72px; }
 
     .hero {
@@ -68,14 +65,13 @@ layout: null
     ul { margin: 8px 0 0 0; padding-left: 18px; }
     li { margin: 6px 0; }
 
-    .block {
+    .card {
       margin-top: 14px;
       padding: 14px 14px;
       border: 1px solid var(--border);
       border-radius: 12px;
       background: var(--card);
     }
-    .block h3 { margin-top: 0; }
 
     .toc {
       display: flex;
@@ -86,9 +82,14 @@ layout: null
       list-style: none;
     }
     .toc li { margin: 0; }
-    .toc a { display:inline-block; padding: 6px 10px; border:1px solid var(--border); border-radius: 999px; background:#fff; }
+    .toc a {
+      display:inline-block;
+      padding: 6px 10px;
+      border:1px solid var(--border);
+      border-radius: 999px;
+      background:#fff;
+    }
 
-    /* Mobile */
     @media (max-width: 720px) {
       .hero { flex-direction: column; }
       .hero img { width: 220px; max-width: 70vw; }
@@ -99,161 +100,137 @@ layout: null
 
 <body>
   <main class="wrap">
-
     <div class="hero">
       <img src="images/nsai.png" alt="Neurosymbolic AI banner" />
       <div>
         <h2>Final Project: CareTrace</h2>
         <p class="subtitle">
-          A consequence-aware <em>Neurosymbolic AI</em> agent for trustworthy after-hours pediatric triage.
+          A hands-on experiment in building a trustworthy conversational agent for after-hours pediatric triage.
         </p>
-        <p class="note">
-          Scenario (one sentence): An after-hours caregiver consults the agent about a sick child and needs an
-          evidence-backed overnight plan plus explicit escalation criteria (urgent care vs ER).
-        </p>
-        <p style="margin-top:12px;">
-          <a href="./">← Back to course home</a>
-        </p>
+
+        <ul class="toc">
+          <li><a href="#project-overview">Project overview</a></li>
+          <li><a href="#evaluation">Evaluation</a></li>
+          <li><a href="#nesy-approach">Neurosymbolic approach</a></li>
+          <li><a href="#tech-stack">Technical stack</a></li>
+          <li><a href="#project-execution">Project execution</a></li>
+        </ul>
       </div>
     </div>
 
-    <section class="section" id="quick-links">
-      <h2>Quick Links</h2>
-      <ul class="toc">
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#goals">Goals</a></li>
-        <li><a href="#authority">Trust via Authority</a></li>
-        <li><a href="#architecture">Multi-Agent Architecture</a></li>
-        <li><a href="#stack">Technical Stack</a></li>
-        <li><a href="#scope">Scope</a></li>
-        <li><a href="#baseline">Baseline Comparison</a></li>
-        <li><a href="#deliverables">Deliverables</a></li>
-      </ul>
-    </section>
+    <section class="section" id="project-overview">
+      <h2>Project overview</h2>
 
-    <section class="section" id="overview">
-      <h2>Overview</h2>
-      <div class="block">
-        <p>
-          We will build a working <em>Neurosymbolic AI</em> agent that supports after-hours pediatric triage by producing a safe,
-          actionable plan a caregiver can follow <em>tonight</em>, along with clear thresholds for when escalation is necessary.
-        </p>
-        <p>
-          Our focus is not on producing fluent conversation alone. We will engineer <em>trust</em> as a system property:
-          authoritative knowledge, explicit practice logic, calibrated context, and a verifiable rationale that a caregiver can
-          act upon.
-        </p>
-        <p>
-          Medicine is our flagship domain because authority, protocols, and safety-netting are explicit. The same architectural
-          principles apply in any high-stakes domain (compliance, finance, safety, operations, security).
-        </p>
-      </div>
-    </section>
+      <p>
+        <i>It’s 11 PM. Urgent care is closed. Your 6-year-old has a fever, threw up once, looks wiped out, and you are trying
+        to decide what you can safely do at home tonight versus what would justify a difficult ER visit. You open CareTrace,
+        describe what you are seeing, and you want something that feels like you had your child’s physician on the phone:
+        a calm, efficient back-and-forth that lands on a clear plan you can follow now, plus crisp thresholds for when
+        escalation is necessary.</i>
+      </p>
 
-    <section class="section" id="goals">
-      <h2>Project Goals</h2>
-      <ul>
-        <li>We will translate caregiver language into structured case facts and canonical clinical meaning (SNOMED-backed concepts where appropriate).</li>
-        <li>We will encode a scoped triage protocol as executable logic: required questions, escalation triggers, and exceptions.</li>
-        <li>We will enforce hard safety constraints (e.g., “must-not-do” recommendations under specific conditions) and produce a decision trace.</li>
-        <li>We will incorporate local context (via a provided or synthetic surveillance feed) as explicitly labeled priors, never as certainty.</li>
-        <li>We will produce concise, decision-oriented output that avoids information overload and supports safe action at night.</li>
-      </ul>
-    </section>
+      <p>
+        In this project, we will build CareTrace as a working Neurosymbolic AI agent for after-hours pediatric triage.
+        The core objective is not to produce fluent conversation alone, but to produce a safe, actionable plan a caregiver
+        can follow tonight, with clear decision thresholds and a rationale that is consistent across multiple turns of a
+        conversation.
+      </p>
 
-    <section class="section" id="authority">
-      <h2>Trust via Authority</h2>
-      <div class="block">
-        <p>
-          A core theme of the project is that caregivers need information they can <em>act on</em> and <em>trust</em>.
-          We will operationalize three distinct sources of authority:
-        </p>
+      <div class="card">
+        <h3>What you will deliver</h3>
         <ul>
-          <li>
-            <strong>Authoritative medical knowledge</strong>:
-            canonical concepts and decision-relevant facts (e.g., symptom meaning, contraindications, dosing constraints tied to formulation + weight).
-          </li>
-          <li>
-            <strong>Practice guidance</strong>:
-            a scoped guideline-like decision procedure (what clinicians do) expressed as executable rules: must-ask checks, escalation triggers, and exceptions.
-          </li>
-          <li>
-            <strong>Judgment context</strong>:
-            a local “what’s going around” style signal represented as priors, used to prioritize questions and frame likelihoods—explicitly labeled as context.
-          </li>
-        </ul>
-        <p class="note">
-          Key design principle: context can inform expectations, but it must never override hard safety gates.
-        </p>
-      </div>
-    </section>
-
-    <section class="section" id="architecture">
-      <h2>Multi-Agent Architecture (Conceptual)</h2>
-      <div class="block">
-        <p>We will implement the system as a stateful workflow in which specialized components cooperate:</p>
-        <ul>
-          <li><strong>Interpretation Agent (LLM):</strong> extracts structured fields and drives targeted follow-up questions when protocol-required information is missing.</li>
-          <li><strong>Knowledge Retrieval Agent (KG):</strong> queries the team’s Neo4j clinical graph to canonicalize meaning, traverse hierarchy (IS_A), and return a minimal evidence bundle.</li>
-          <li><strong>Safety Logic Agent (Symbolic):</strong> executes rules deterministically (obligations, contraindication gates, escalation triggers) and emits a decision trace.</li>
-          <li><strong>Authority Agent (Medication / Reference Knowledge):</strong> computes exact recommendations only when required inputs are present, tied to a named reference artifact.</li>
-          <li><strong>Context Agent:</strong> injects local priors from the surveillance feed as labeled context, never as asserted fact.</li>
-          <li><strong>Explanation Agent:</strong> produces a concise caregiver-facing summary: tonight plan, go-now thresholds, and a trace-backed rationale.</li>
-          <li><strong>Orchestration:</strong> enforces a disciplined interaction flow (screen red flags → stabilize → dose (if allowed) → safety-net plan), preventing information bombardment.</li>
+          <li>A working multi-turn triage agent (CareTrace) that asks targeted questions, produces a plan, and updates that plan as new information arrives.</li>
+          <li>A small, curated structured knowledge base relevant to pediatric triage, implemented as a Neo4j property graph.</li>
+          <li>A symbolic layer that applies explicit decision logic and safety checks over the conversation state and the knowledge base.</li>
+          <li>A compact evaluation showing how CareTrace compares to strong baseline conversations with a state-of-the-art LLM used as-is.</li>
         </ul>
       </div>
     </section>
 
-    <section class="section" id="stack">
-      <h2>Technical Stack</h2>
-      <ul>
-        <li><strong>Python</strong> for integration, orchestration glue, and data handling</li>
-        <li><strong>LLM API</strong> (state-of-the-art model) for interpretation, follow-up question generation, and explanation drafting</li>
-        <li><strong>LangGraph</strong> for stateful agent workflow orchestration</li>
-        <li><strong>Neo4j AuraDB</strong> for the mini clinical knowledge graph</li>
-        <li><strong>PyDatalog</strong> for executable rules, constraints, and decision traces</li>
-        <li><strong>Snowstorm / FHIR terminology endpoints</strong> for public SNOMED concept discovery and labeling during KG curation</li>
-        <li><strong>Authority artifacts</strong> (team-built): a small dosing/contraindication reference and a small local context feed</li>
-      </ul>
-    </section>
+    <section class="section" id="evaluation">
+      <h2>Evaluation</h2>
 
-    <section class="section" id="scope">
-      <h2>Scope (Bounded, Implementable, Testable)</h2>
-      <div class="block">
-        <p>
-          To keep the project realistic and implementable, we will work in a bounded context. Each team will choose one presenting
-          complaint cluster and implement:
-        </p>
+      <p>
+        We will evaluate CareTrace head-to-head against a strong baseline: a state-of-the-art conversational model (for example,
+        ChatGPT or Gemini) used as-is in the same multi-turn scenario, with the same information available to the user.
+      </p>
+
+      <ul>
+        <li>Clinical confidence of the plan: Does the recommendation inspire appropriate confidence because it is coherent and consistent across turns and aligns with cautious clinical reasoning?</li>
+        <li>Actionability tonight: Does it produce a concrete, stepwise plan a caregiver can execute immediately, including what to monitor and what would change the recommendation?</li>
+        <li>Conversation efficiency: How quickly does it converge to the right plan with minimal back-and-forth, asking only the questions that truly matter?</li>
+        <li>Drift and frustration: Does it stay on track as the conversation evolves, or does it wander, repeat itself, or create cognitive overload at the moment the caregiver most needs clarity?</li>
+        <li>Decision thresholds and safety-netting quality: How clear and unambiguous are the escalation triggers, and how well do they map to the caregiver’s real decision of whether it is safe to wait until morning?</li>
+      </ul>
+
+      <div class="card">
+        <h3>What makes this an evaluation of a conversation</h3>
         <ul>
-          <li><strong>Bounded clinical substrate:</strong> a limited SNOMED-backed mini-KG relevant to the chosen complaint.</li>
-          <li><strong>Bounded protocol:</strong> a small set of rules (must-ask checks, escalation triggers, contraindication gates).</li>
-          <li><strong>Bounded context priors:</strong> a small surveillance-style feed used as labeled context.</li>
-          <li><strong>Bounded output:</strong> a short decisional plan (not a long differential).</li>
+          <li>The agent must gather missing information efficiently rather than front-loading long questionnaires.</li>
+          <li>The agent must remain consistent when new details arrive and revise recommendations without contradiction.</li>
+          <li>The agent must minimize time-to-decision while maintaining safety, clarity, and focus.</li>
         </ul>
       </div>
     </section>
 
-    <section class="section" id="baseline">
-      <h2>Baseline Comparison</h2>
-      <div class="block">
-        <p>
-          We will compare our Neurosymbolic AI agent against a state-of-the-art LLM conversation baseline (and, where appropriate,
-          a simple retrieval-augmented baseline). The goal is to demonstrate where pure conversation can be confusing or falsely
-          authoritative (especially around “local context” and “what guidelines say”), and how an explicit neurosymbolic pipeline
-          delivers disciplined decisions with a verifiable authority chain and reproducible traces.
-        </p>
+    <section class="section" id="nesy-approach">
+      <h2>Neurosymbolic approach</h2>
+
+      <p>
+        CareTrace will combine three capabilities that are individually useful but most powerful when integrated: a conversational
+        model for natural interaction, a structured knowledge base for clinical concepts and relationships, and a symbolic layer
+        for decision logic and safety checks across a multi-turn state.
+      </p>
+
+      <ul>
+        <li>Conversational intelligence to run a focused triage dialogue, interpret caregiver language, and keep the interaction efficient and humane.</li>
+        <li>Authoritative structured knowledge to ground terms, relationships, and relevant clinical distinctions and to support consistent interpretation across turns.</li>
+        <li>Explicit decision logic to enforce safety checks and escalation thresholds and to keep recommendations stable under uncertainty as the conversation evolves.</li>
+        <li>Rationale that is stable across turns by tying recommendations to specific structured facts and explicit rules instead of relying on a single one-shot generation.</li>
+        <li>Controlled information delivery so the caregiver receives what they need in the moment rather than being flooded with generic warnings or exhaustive medical content.</li>
+      </ul>
+
+      <div class="card">
+        <h3>Bounded scope</h3>
+        <ul>
+          <li>This is a deliberately scoped problem with a small set of conditions, questions, and guideline logic chosen to make careful evaluation feasible.</li>
+          <li>The objective here is a neurosymbolic engineering and evaluation exercise, towards a trustworthy cognitive agent (not comprehensive pediatric care !).</li>
+        </ul>
       </div>
     </section>
 
-    <section class="section" id="deliverables">
-      <h2>High-Level Deliverables</h2>
+    <section class="section" id="tech-stack">
+      <h2>Technical stack</h2>
+
       <ul>
-        <li>A mini clinical knowledge graph running in Neo4j AuraDB (scoped slice, queryable, documented).</li>
-        <li>An executable triage protocol implemented as rules plus a decision trace format.</li>
-        <li>A small authoritative dosing/contraindication reference and a local context feed (synthetic or provided).</li>
-        <li>An end-to-end demo: dialogue → structured facts → KG retrieval → rule decision → response with provenance.</li>
-        <li>A small baseline comparison showing where baselines drift vs where the NeSy agent remains disciplined and auditable.</li>
+        <li>LLM interface for multi-turn dialogue and response drafting.</li>
+        <li>Neo4j AuraDB as the knowledge graph database for clinical concepts, relationships, and curated facts.</li>
+        <li>Cypher queries for retrieving targeted subgraphs and evidence relevant to the current conversation state.</li>
+        <li>PyDatalog (or an equivalent logic layer) to express and execute explicit triage rules and safety checks over retrieved facts and conversation state.</li>
+        <li>Python orchestration to connect the LLM, Neo4j, and the symbolic layer, and to log interactions for evaluation.</li>
       </ul>
+
+
+    </section>
+
+    <section class="section" id="project-execution">
+      <h2>Project execution</h2>
+
+      <ul>
+        <li>This is a group project completed in teams of 3.</li>
+        <li>The work is intentionally bounded, with a small domain slice, a limited set of triage rules, and a compact evaluation set so that the end-to-end system can be built and tested rigorously.</li>
+        <li>Your deliverable is a working agent plus an evaluation narrative that shows what improved, what did not, and where trust breaks under realistic multi-turn interaction.</li>
+      </ul>
+
+      <div class="card">
+        <h3>Expected workflow</h3>
+        <ul>
+          <li>Build the mini knowledge graph in AuraDB and validate core query patterns.</li>
+          <li>Implement a multi-turn conversation state that captures the caregiver’s answers and the agent’s evolving hypotheses and plan.</li>
+          <li>Add a symbolic layer for decision thresholds and safety checks that can be executed repeatedly as new information arrives.</li>
+          <li>Run baseline conversations with a state-of-the-art LLM used as-is, then run CareTrace on the same scenarios, and compare on the evaluation dimensions.</li>
+        </ul>
+      </div>
     </section>
 
   </main>

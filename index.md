@@ -147,7 +147,10 @@ layout: null
         <li><strong>Lecture 2:</strong> <i> (Jan 7) </i><a href="slides/DATASCI290_Lecture2.pdf">Healthcare: A Compelling Need for Neurosymbolic AI Solutions</a></li>
         <li><strong>Lecture 3:</strong> <i> (Jan 12) </i><a href="slides/DATASCI290_Lecture3.pdf">Trustworthiness, Cognitive Architectures, Language Agents</a></li>
         <li><strong>Lecture 4:</strong> <i> (Jan 14) </i><a href="slides/DATASCI290_Lecture4.pdf">Can Knowledge Graphs Reduce Hallucinations in LLMs, and How So ?</a></li>
-        <li><strong>Lecture 5:</strong> <i> (Jan 21) </i><a href="slides/DATASCI290_Lecture5.pdf">Knowledge Graphs: Foundations of Consequence-Aware AI Agents</a></li>
+        <li><strong>Lecture 5:</strong> <i> (Jan 21) </i><a href="slides/DATASCI290_Lecture5.pdf">Knowledge Graphs: Foundations of Consequence-Aware AI Agents I</a></li>
+        <li><strong>Lecture 6:</strong> <i> (Jan 21) </i><a href="slides/DATASCI290_Lecture6.pdf">Knowledge Graphs: Foundations of Consequence-Aware AI Agents II</a></li>
+        <li><strong>Lecture 7:</strong> <i> (Jan 21) </i><a href="slides/DATASCI290_Lecture7.pdf">Final Project (CareTrace); Knowledge Graphs Lab Assignment; G-Retriever (Graph LLM)</a></li>
+        <li><strong>Lecture 8:</strong> <i> (Jan 21) </i><a href="slides/DATASCI290_Lecture8.pdf">Graph LLM: Algorithm Walkthrough; KG-RAG Inference: Implementation</a></li>
       </ul>
     </section>
 

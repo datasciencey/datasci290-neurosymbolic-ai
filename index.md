@@ -152,7 +152,7 @@ layout: null
         <li><strong>Lecture 7:</strong> <i> (Jan 28) </i><a href="slides/DATASCI290_Lecture7.pdf">Final Project (CareTrace); Knowledge Graphs Lab Assignment; G-Retriever (Graph LLM)</a></li>
         <li><strong>Lecture 8:</strong> <i> (Feb 2) </i><a href="slides/DATASCI290_Lecture8.pdf">Graph LLM: Algorithm Walkthrough; KG-RAG Inference: Implementation</a></li>
         <li><strong>Lecture 9:</strong> <i> (Feb 4) </i><a href="slides/DATASCI290_Lecture9.pdf">Datalog: Let's get LOGICAL</a></li>
-        <li><strong>Lecture 10:</strong> <i> (Feb 9) </i><a href="https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdatasciencey%2Fdatasci290-code&branch=main&urlpath=lab%2Ftree%2Fdatasci290-code%2FLecture+Notebooks%2FLecture+9%3A+pyDatalog%2FDatalog+Fundamentals.ipynb">Datalog Fundamentals (pyDatalog Notebok)</a></li>
+        <li><strong>Lecture 10:</strong> <i> (Feb 9) </i><a href="https://github.com/datasciencey/datasci290-code/blob/main/Lecture%20Notebooks/Lecture%209:%20pyDatalog/Datalog%20Fundamentals.ipynb">Datalog Fundamentals (pyDatalog Notebok)</a></li>
       </ul>
     </section>
 

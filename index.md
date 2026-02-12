@@ -141,7 +141,7 @@ layout: null
       </ul>
     </section>
 
-    <section class="section" id="lecture-slides">
+    <section class="section" id="books">
     There isn't currently a textbook that provides good coverage of the topics of interest here. However for some specific topics the following are good references: 
     <ul>
         <li><strong>Knowledge Graphs</strong> <a href="slides/Knowledge Graphs Book.pdf">Knowledge Graphs, Hogan et. al. (Chapter 2)</a></li>

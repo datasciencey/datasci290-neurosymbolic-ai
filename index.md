@@ -142,10 +142,10 @@ layout: null
     </section>
 
     <section class="section" id="lecture-slides">
-    There isn't, unfortunately, a textbook that provides good coverage of the topics of interest here. However for some specific topics the following are good references: 
+    There isn't currently a textbook that provides good coverage of the topics of interest here. However for some specific topics the following are good references: 
     <ul>
-        <li><strong>Knowledge Graphs</strong> <a href="slides/Knowledge Graphs Book.pdf">Knowledge Graphs, Hogan et. al.,</a></li>
-        <li><strong>Datalog</strong> <a href="slides/Foundations of Databases.pdf">Foundations of Databases, Abiteboul, Hull & Vianu</a></li>
+        <li><strong>Knowledge Graphs</strong> <a href="slides/Knowledge Graphs Book.pdf">Knowledge Graphs, Hogan et. al. (Chapter 2)</a></li>
+        <li><strong>Datalog</strong> <a href="slides/Foundations of Databases Book.pdf">Foundations of Databases, Abiteboul, Hull & Vianu (Chapter 12: Datalog)</a></li>
         </ul>
 
     </section>

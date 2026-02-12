@@ -137,7 +137,17 @@ layout: null
       <ul class="toc">
         <li><a href="#lecture-slides">Lecture Slides</a></li>
         <li><a href="#lectures">Lectures</a></li>
+        <li><a href="#books">Books</a></li>
       </ul>
+    </section>
+
+    <section class="section" id="lecture-slides">
+    There isn't, unfortunately, a textbook that provides good coverage of the topics of interest here. However for some specific topics the following are good references: 
+    <ul>
+        <li><strong>Knowledge Graphs</strong> <a href="slides/Knowledge Graphs Book.pdf">Knowledge Graphs, Hogan et. al.,</a></li>
+        <li><strong>Datalog</strong> <a href="slides/Foundations of Databases.pdf">Foundations of Databases, Abiteboul, Hull & Vianu</a></li>
+        </ul>
+
     </section>
 
     <section class="section" id="lecture-slides">

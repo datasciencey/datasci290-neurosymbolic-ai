@@ -283,8 +283,35 @@ layout: null
         </ul>
       </div>
 
+
       <div class="lecture" id="lecture-09">
-        <h3>Lecture 9: Beyond Basic Retrieval - Iterative and Multi-Hop Reasoning</h3>
+        <h3>Lecture 9: Datalog Fundamentals</h3>
+        <p>
+          We will cover symbolic logic for Neurosymbolic AI systems, through Datalog - a logic programming language for databases.
+        </p>
+        <p class="readings-title">Readings</p>
+        <ul>
+          <li>Abiteboul, Serge, Richard Hull, and Victor Vianu. <em>Foundations of Databases.</em> Vol. 8. Reading: Addison-Wesley, 1995.</li>
+
+        </ul>
+      </div>
+
+      <div class="lecture" id="lecture-10">
+        <h3>Lecture 10: Programming with Datalog: Using pyDatalog</h3>
+        <p>
+          Implementing logic with Datalog, using pyDatalog
+        </p>
+        <p class="readings-title">References</p>
+        <ul>
+          <li><a href="https://pypi.org/project/pyDatalog">pyDatalog</a> (library)</li>
+          <li><a href="https://sites.google.com/site/pydatalog/Online-datalog-tutorial">pyDatalog Tutorial</a></li>
+          
+         
+        </ul>
+      </div>
+
+      <div class="lecture" id="lecture-09">
+        <h3>Lecture 9+: Beyond Basic Retrieval - Iterative and Multi-Hop Reasoning</h3>
         <p>
           Simple Knowledge Graph RAG retrieves facts once and hands them to the model, but complex questions often require
           multiple retrieval steps as understanding deepens. This lecture explores approaches where agents iteratively query
@@ -300,7 +327,7 @@ layout: null
       </div>
 
       <div class="lecture" id="lecture-10">
-        <h3>Lecture 10: Reasoning Capabilities and Limitations in Modern LLMs</h3>
+        <h3>Lecture 10+: Reasoning Capabilities and Limitations in Modern LLMs</h3>
         <p>
           Today's frontier models demonstrate impressive reasoning through techniques like chain-of-thought prompting,
           self-verification, and planning, but they still struggle with tasks requiring precise logic or verifiable facts.

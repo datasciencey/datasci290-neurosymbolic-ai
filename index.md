@@ -43,7 +43,7 @@ layout: null
       border-bottom: 1px solid var(--border);
     }
     .hero img {
-      width: 220px;         /* overall smaller image */
+      width: 220px;
       max-width: 38vw;
       height: auto;
       display:block;
@@ -103,8 +103,12 @@ layout: null
       <img src="images/nsai.png" alt="Neurosymbolic AI banner" />
       <div>
         <h2>Neurosymbolic AI: Building Consequence-Aware Cognitive Agents</h2>
-         <i>This is an open-access resource for a subset (the course topics, specific readings, and lecture slides) of the course materials for DATASCI 290: Neurosymbolic AI: Building Consequence-Aware Cognitive Agents, offered at UC Berkeley Spring 2026. Lecture slides will be added progressively as we run through through the Spring '26 semester. </i> <a href="https://www.linkedin.com/in/naveenashish/">Naveen Ashish</a> (Instructor) 
-        
+        <i>
+          This is an open-access resource for a subset (the course topics, specific readings, and lecture slides) of the course
+          materials for DATASCI 290: Neurosymbolic AI: Building Consequence-Aware Cognitive Agents, offered at UC Berkeley Spring 2026.
+          Lecture slides will be added progressively as we run through the Spring ’26 semester.
+        </i>
+        <a href="https://www.linkedin.com/in/naveenashish/">Naveen Ashish</a> (Instructor)
       </div>
     </div>
 
@@ -138,35 +142,37 @@ layout: null
         <li><a href="#lecture-slides">Lecture Slides</a></li>
         <li><a href="#lectures">Lectures</a></li>
         <li><a href="#books">Books</a></li>
+        <li><a href="https://datasciencey.github.io/datasci290-neurosymbolic-ai/finalproject.html">Final Project</a></li>
+        <li><a href="https://github.com/datasciencey/datasci290-code">Lecture Notebooks &amp; Code Scaffolds</a></li>
       </ul>
     </section>
 
     <section class="section" id="books">
-    There isn't currently a textbook that provides good coverage of the topics of interest here. However for some specific topics the following are good references: 
-    <ul>
+      <h2>Books</h2>
+      <p>
+        There isn't currently a textbook that provides good coverage of the topics of interest here. However, for some
+        specific topics the following are good references:
+      </p>
+      <ul>
         <li><strong>Knowledge Graphs</strong> <a href="slides/Knowledge Graphs Book.pdf">Knowledge Graphs, Hogan et. al. (Chapter 2)</a></li>
-        <li><strong>Datalog</strong> <a href="slides/Foundations of Databases Book.pdf">Foundations of Databases, Abiteboul, Hull & Vianu (Chapter 12: Datalog)</a></li>
-        </ul>
-
+        <li><strong>Datalog</strong> <a href="slides/Foundations of Databases Book.pdf">Foundations of Databases, Abiteboul, Hull &amp; Vianu (Chapter 12: Datalog)</a></li>
+      </ul>
     </section>
 
     <section class="section" id="lecture-slides">
       <h2>Lecture Slides</h2>
       <ul>
-        <li><strong>Lecture 1:</strong> <i> (Jan 5) </i><a href="slides/DATASCI290_Lecture1.pdf">Introduction, to Neurosymbolic AI and Consequence-Aware Cognitive Agents</a></li>
-        <li><strong>Lecture 2:</strong> <i> (Jan 7) </i><a href="slides/DATASCI290_Lecture2.pdf">Healthcare: A Compelling Need for Neurosymbolic AI Solutions</a></li>
-        <li><strong>Lecture 3:</strong> <i> (Jan 12) </i><a href="slides/DATASCI290_Lecture3.pdf">Trustworthiness, Cognitive Architectures, Language Agents</a></li>
-        <li><strong>Lecture 4:</strong> <i> (Jan 14) </i><a href="slides/DATASCI290_Lecture4.pdf">Can Knowledge Graphs Reduce Hallucinations in LLMs, and How So ?</a></li>
-        <li><strong>Lecture 5:</strong> <i> (Jan 21) </i><a href="slides/DATASCI290_Lecture5.pdf">Knowledge Graphs: Foundations of Consequence-Aware AI Agents I</a></li>
-        <li><strong>Lecture 6:</strong> <i> (Jan 26) </i><a href="slides/DATASCI290_Lecture6.pdf">Knowledge Graphs: Foundations of Consequence-Aware AI Agents II</a></li>
-        <li><strong>Lecture 7:</strong> <i> (Jan 28) </i><a href="slides/DATASCI290_Lecture7.pdf">Final Project (CareTrace); Knowledge Graphs Lab Assignment; G-Retriever (Graph LLM)</a></li>
-        <li><strong>Lecture 8:</strong> <i> (Feb 2) </i><a href="slides/DATASCI290_Lecture8.pdf">Graph LLM: Algorithm Walkthrough; KG-RAG Inference: Implementation</a></li>
-        <li><strong>Lecture 9:</strong> <i> (Feb 4) </i><a href="slides/DATASCI290_Lecture9.pdf">Datalog: Let's get LOGICAL</a></li>
-        <li><strong>Lecture 10:</strong> <i> (Feb 9) </i><a href="https://github.com/datasciencey/datasci290-code/blob/main/Lecture%20Notebooks/Lecture%209:%20pyDatalog/Datalog%20Fundamentals.ipynb">Datalog Fundamentals (pyDatalog Notebok)</a></li>
-       <li><strong>Lecture 11:</strong> <i> (Feb 11) </i><a href="slides/DATASCI290_Lecture11.pdf">Neurosymbolic Lowering methods: 
-Inference-time, deep integration of knowledge graphs with LLMs</a></li>
-
-        
+        <li><strong>Lecture 1:</strong> <i>(Jan 5)</i> <a href="slides/DATASCI290_Lecture1.pdf">Introduction to Neurosymbolic AI and Consequence-Aware Cognitive Agents</a></li>
+        <li><strong>Lecture 2:</strong> <i>(Jan 7)</i> <a href="slides/DATASCI290_Lecture2.pdf">Healthcare: A Compelling Need for Neurosymbolic AI Solutions</a></li>
+        <li><strong>Lecture 3:</strong> <i>(Jan 12)</i> <a href="slides/DATASCI290_Lecture3.pdf">Trustworthiness, Cognitive Architectures, Language Agents</a></li>
+        <li><strong>Lecture 4:</strong> <i>(Jan 14)</i> <a href="slides/DATASCI290_Lecture4.pdf">Can Knowledge Graphs Reduce Hallucinations in LLMs, and How So?</a></li>
+        <li><strong>Lecture 5:</strong> <i>(Jan 21)</i> <a href="slides/DATASCI290_Lecture5.pdf">Knowledge Graphs: Foundations of Consequence-Aware AI Agents I</a></li>
+        <li><strong>Lecture 6:</strong> <i>(Jan 26)</i> <a href="slides/DATASCI290_Lecture6.pdf">Knowledge Graphs: Foundations of Consequence-Aware AI Agents II</a></li>
+        <li><strong>Lecture 7:</strong> <i>(Jan 28)</i> <a href="slides/DATASCI290_Lecture7.pdf">Final Project (CareTrace); Knowledge Graphs Lab Assignment; G-Retriever (Graph LLM)</a></li>
+        <li><strong>Lecture 8:</strong> <i>(Feb 2)</i> <a href="slides/DATASCI290_Lecture8.pdf">Graph LLM: Algorithm Walkthrough; KG-RAG Inference: Implementation</a></li>
+        <li><strong>Lecture 9:</strong> <i>(Feb 4)</i> <a href="slides/DATASCI290_Lecture9.pdf">Datalog: Let's get LOGICAL</a></li>
+        <li><strong>Lecture 10:</strong> <i>(Feb 9)</i> <a href="https://github.com/datasciencey/datasci290-code/blob/main/Lecture%20Notebooks/Lecture%209:%20pyDatalog/Datalog%20Fundamentals.ipynb">Datalog Fundamentals (pyDatalog Notebook)</a></li>
+        <li><strong>Lecture 11:</strong> <i>(Feb 11)</i> <a href="slides/DATASCI290_Lecture11.pdf">Neurosymbolic lowering methods: inference-time, deep integration of knowledge graphs with LLMs</a></li>
       </ul>
     </section>
 
@@ -177,209 +183,204 @@ Inference-time, deep integration of knowledge graphs with LLMs</a></li>
         <h3>Lecture 1: AI Agents, with Consequences</h3>
         <p>
           Establish why probabilistic accuracy alone is insufficient when decisions carry serious consequences.
-          Demonstrate through concrete examples (healthcare, safety-critical systems, regulatory domains) how LLM
-          failures arise from lack of constraints, traceability, and accountability. Motivate the fundamental
-          requirement for explainability, consistency, and verifiable control in systems that affect human safety,
-          legal compliance, and critical infrastructure.
+          Demonstrate, through concrete examples (healthcare, safety-critical systems, regulatory domains), how LLM failures arise from missing constraints,
+          weak traceability, and unclear accountability. Motivate the core requirement for explainability, consistency, and verifiable control in systems
+          that affect human safety, legal compliance, and critical infrastructure.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Sheth, A., Roy, S., &amp; Gaur, M. (2023). <em>Neurosymbolic AI—Why, What, and How</em>. IEEE Intelligent Systems, 38(6), 14–26. (PDF / Berkeley Library)</li>
+          <li>Sheth, A., Roy, S., &amp; Gaur, M. (2023). <em>Neurosymbolic AI—Why, What, and How</em>. IEEE Intelligent Systems, 38(6), 14–26.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-02">
         <h3>Lecture 2: Engineering Consequence-Aware Cognitive Agents</h3>
         <p>
-          Introduce the reference architecture for consequence-aware agents: perception → structured knowledge →
-          rules/constraints → checking/repair → action. Position neurosymbolic AI as the engineering paradigm that
-          combines “neural fluency” (pattern recognition, language understanding) with “explicit knowledge”
-          (facts, ontologies, provenance) and “verifiable control” (rules, constraints, formal checks). Show how
-          this architecture addresses the failures identified in Lecture 1 and sets up the technical components
-          the course will develop.
+          Introduce a reference architecture for consequence-aware agents: perception → structured knowledge → rules/constraints → checking/repair → action.
+          Position neurosymbolic AI as an engineering paradigm that combines neural fluency (pattern recognition, language understanding) with explicit knowledge
+          (facts, ontologies, provenance) and verifiable control (rules, constraints, formal checks). Show how the architecture addresses the failures from
+          Lecture 1 and frames the technical components the course will build.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Mehta, N., Hartvigsen, T., &amp; Koenecke, A. (2024). <em>A future role for health applications of large language models depends on regulators enforcing safety standards</em>. The Lancet Digital Health, 6(8), e585–e586. (PDF)</li>
-          <li>Gaur, M., &amp; Sheth, A. (2024). <em>Building trustworthy NeuroSymbolic AI Systems: Consistency, reliability, explainability, and safety</em>. AI Magazine, 45(1), 14–26. (PDF)</li>
-          <li>Kahneman, D., &amp; Tversky, A. (1974). <em>Judgment under uncertainty: Heuristics and biases</em>. Science, 185(4157), 1124–1131. (PDF)</li>
+          <li>Mehta, N., Hartvigsen, T., &amp; Koenecke, A. (2024). <em>A future role for health applications of large language models depends on regulators enforcing safety standards</em>. The Lancet Digital Health, 6(8), e585–e586.</li>
+          <li>Gaur, M., &amp; Sheth, A. (2024). <em>Building trustworthy NeuroSymbolic AI Systems: Consistency, reliability, explainability, and safety</em>. AI Magazine, 45(1), 14–26.</li>
+          <li>Kahneman, D., &amp; Tversky, A. (1974). <em>Judgment under uncertainty: Heuristics and biases</em>. Science, 185(4157), 1124–1131.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-03">
         <h3>Lecture 3: Trustworthiness, Cognitive Architectures, Language Agents</h3>
         <p>
-          Modern LLMs excel at fast, fluent responses but high-consequence domains demand deliberate, verifiable reasoning.
-          This lecture translates dual-process cognitive theory into the reference architecture that structures the course:
-          Perception → Structured Knowledge → Rules/Constraints → Verification → Action. We examine failure modes when any
-          layer is absent, using examples from healthcare and finance to show why each component is non-negotiable and why
-          structured knowledge sits at the core.
+          Modern LLMs excel at fast, fluent responses, but high-consequence domains demand deliberate, verifiable reasoning.
+          This lecture translates dual-process cognitive theory into the course’s reference architecture: perception → structured knowledge → rules/constraints → verification → action.
+          We examine failure modes when any layer is absent, using examples from healthcare and finance to show why each component is essential and why structured knowledge sits at the core.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Sumers, T. R., Ho, M. K., Hawkins, R. D., et al. (2023). <em>Cognitive Architectures for Language Agents (CoALA)</em>. Transactions on Machine Learning Research. (PDF)</li>
+          <li>Sumers, T. R., Ho, M. K., Hawkins, R. D., et al. (2023). <em>Cognitive Architectures for Language Agents (CoALA)</em>. Transactions on Machine Learning Research.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-04">
         <h3>Lecture 4: The Value of Structured Knowledge (Knowledge Graphs)</h3>
         <p>
-          What form should structured knowledge take? This lecture builds the empirical case for knowledge graphs by
-          enumerating requirements: explicit representation, compositional structure, constraint binding, traceability,
-          evolvability, and queryability. We present evidence showing structured knowledge reduces hallucinations, enables
-          multi-hop reasoning, and supports accountability where alternatives like vector embeddings and unstructured text fail.
+          What form should structured knowledge take? This lecture builds the empirical case for knowledge graphs by enumerating requirements:
+          explicit representation, compositional structure, constraint binding, traceability, evolvability, and queryability.
+          We review evidence that structured knowledge reduces hallucinations, enables multi-hop reasoning, and supports accountability where alternatives like embeddings-only or unstructured text fall short.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Agrawal, G., Kumarage, T., Alghamdi, Z., &amp; Liu, H. (2024). <em>Can Knowledge Graphs Reduce Hallucinations in LLMs?: A Survey</em>. NAACL 2024, 3947–3960. (PDF)</li>
-          <li>Li, H., Appleby, G., Alperin, K., Gomez, S. R., &amp; Suh, A. (2025). <em>Mitigating LLM Hallucinations with Knowledge Graphs: A Case Study</em>. (PDF)</li>
+          <li>Agrawal, G., Kumarage, T., Alghamdi, Z., &amp; Liu, H. (2024). <em>Can Knowledge Graphs Reduce Hallucinations in LLMs?: A Survey</em>. NAACL 2024, 3947–3960.</li>
+          <li>Li, H., Appleby, G., Alperin, K., Gomez, S. R., &amp; Suh, A. (2025). <em>Mitigating LLM Hallucinations with Knowledge Graphs: A Case Study</em>.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-05">
         <h3>Lecture 5: Knowledge Graphs</h3>
         <p>
-          A knowledge graph represents facts as entities connected by labeled relationships, fundamentally different from
-          storing information in tables or documents. This lecture shows what graphs look like, how they capture the web of
-          connections between facts, and why this structure matters for representing knowledge that agents can reason over.
-          Moving from the abstract dual-process framework to concrete implementation requires choosing a representation, and
-          graphs provide the explicit structure that makes knowledge queryable and verifiable.
+          A knowledge graph represents facts as entities connected by labeled relationships, which is fundamentally different from storing information in tables or documents.
+          This lecture shows what graphs look like, how they capture networks of connections between facts, and why that structure matters for representing knowledge that agents can query and reason over.
+          We connect the dual-process framework to concrete implementation choices, motivating graphs as an explicit, verifiable substrate.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Hogan, A., Blomqvist, E., Cochez, M., d’Amato, C., Melo, G. D., Gutierrez, C., Kirrane, S., Gayo, J. E. L., Navigli, R., &amp; Neumaier, S. (2021). <em>Knowledge Graphs (Book)</em>. Springer. (PDF)</li>
+          <li>Hogan, A., Blomqvist, E., Cochez, M., d’Amato, C., Melo, G. D., Gutierrez, C., Kirrane, S., Gayo, J. E. L., Navigli, R., &amp; Neumaier, S. (2021). <em>Knowledge Graphs</em>. Springer.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-06">
         <h3>Lecture 6: Why Consequence-Aware Agents Need Knowledge Graphs</h3>
         <p>
-          Accountable agents must explain their reasoning, verify facts against trusted sources, and trace how they reached
-          conclusions. This lecture shows why knowledge graphs are essential for these capabilities: their explicit structure
-          enables systematic verification, their relationships provide reasoning chains, and their provenance tracking shows
-          where each fact originated. Without structured knowledge in graph form, agents remain black boxes that can guess
-          but cannot justify their decisions with auditable evidence.
+          Accountable agents must explain their reasoning, verify facts against trusted sources, and trace how they reached conclusions.
+          This lecture shows why knowledge graphs are central: their explicit structure enables systematic verification, their relationships support reasoning chains, and their provenance mechanisms represent where facts came from.
+          Without structured knowledge in graph form, agents may guess plausibly but cannot justify decisions with auditable evidence.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Balog et al. (2024). <em>Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey</em>. arXiv:2402.05391. (PDF)</li>
+          <li>Balog et al. (2024). <em>Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey</em>. arXiv:2402.05391.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-07">
         <h3>Lecture 7: Introducing Knowledge Graph RAG and Querying Basics</h3>
         <p>
-          Language models need external knowledge to answer questions accurately, but their context windows cannot fit entire
-          knowledge bases. Knowledge Graph RAG solves this by retrieving only the relevant facts from a graph and injecting
-          them into the model's prompt as context. This lecture shows how the process works: find the entities the question
-          mentions, navigate the graph to gather connected facts, and extract just the subgraph needed to answer the question.
+          Language models need external knowledge to answer questions accurately, but context windows cannot fit entire knowledge bases.
+          Knowledge Graph RAG solves this by retrieving only the relevant facts from a graph and injecting them into the prompt as grounded context.
+          This lecture shows the full retrieval loop: entity detection, graph navigation, subgraph extraction, and packaging evidence for generation.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>He et al. (2024). <em>G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering</em>. NeurIPS 2024. (PDF)</li>
-          <li>Edge et al. (2024). <em>From Local to Global: A Graph RAG Approach to Query-Focused Summarization</em>. Microsoft Research. (PDF)</li>
+          <li>He et al. (2024). <em>G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering</em>. NeurIPS 2024.</li>
+          <li>Edge et al. (2024). <em>From Local to Global: A Graph RAG Approach to Query-Focused Summarization</em>. Microsoft Research.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-08">
         <h3>Lecture 8: Knowledge Graph RAG in Practice</h3>
         <p>
-          Building on the retrieval mechanics from Lecture 7, this lecture walks through complete examples showing how
-          questions become answers through graph-grounded reasoning. The agent identifies relevant entities, retrieves their
-          relationships and connected facts, and uses this structured knowledge to generate responses with clear provenance.
-          This approach gives agents access to verifiable external knowledge, moving us closer to systems that can justify
-          their answers with explicit evidence rather than opaque pattern matching.
+          Building on the retrieval mechanics from Lecture 7, this lecture walks through end-to-end examples showing how questions become answers through graph-grounded reasoning.
+          The agent identifies relevant entities, retrieves connected facts, and generates responses that cite provenance.
+          The goal is operational: systems that justify answers with explicit evidence rather than opaque pattern matching.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Zhu, X., Xie, Y., Liu, Y., Li, Y., &amp; Hu, W. (2025). <em>Knowledge Graph-Guided Retrieval Augmented Generation</em>. NAACL 2025. (PDF)</li>
-          <li>Zhang, Q., Dong, J., Chen, H., Zha, D., Yu, Z., &amp; Huang, X. (2024). <em>KnowGPT: Knowledge graph based prompting for large language models</em>. NeurIPS 37, 6052–6080. (PDF)</li>
+          <li>Zhu, X., Xie, Y., Liu, Y., Li, Y., &amp; Hu, W. (2025). <em>Knowledge Graph-Guided Retrieval Augmented Generation</em>. NAACL 2025.</li>
+          <li>Zhang, Q., Dong, J., Chen, H., Zha, D., Yu, Z., &amp; Huang, X. (2024). <em>KnowGPT: Knowledge graph based prompting for large language models</em>. NeurIPS 37, 6052–6080.</li>
         </ul>
       </div>
-
 
       <div class="lecture" id="lecture-09">
         <h3>Lecture 9: Datalog Fundamentals</h3>
         <p>
-          We will cover symbolic logic for Neurosymbolic AI systems, through Datalog - a logic programming language for databases.
+          Introduce symbolic logic for neurosymbolic systems using Datalog as a database-oriented logic language.
+          Cover extensional vs intensional databases (EDB/IDB), rules, safety, recursion, and fixpoint semantics.
+          Motivate why Datalog is a natural bridge between knowledge graphs (facts) and executable rules (constraints, policies, clinical logic).
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Abiteboul, Serge, Richard Hull, and Victor Vianu. <em>Foundations of Databases.</em> Vol. 8. Reading: Addison-Wesley, 1995.</li>
-
+          <li>Abiteboul, S., Hull, R., &amp; Vianu, V. (1995). <em>Foundations of Databases</em>. Addison-Wesley. (selected chapters/sections)</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-10">
-        <h3>Lecture 10: Programming with Datalog: Using pyDatalog</h3>
+        <h3>Lecture 10: Programming with Datalog Using pyDatalog</h3>
         <p>
-          Implementing logic with Datalog, using pyDatalog
+          Hands-on implementation of Datalog concepts in Python using pyDatalog. Implement facts and rules, recursion, negation patterns (where supported),
+          and explainable query outputs. Position pyDatalog as a lightweight “symbolic engine” that can be invoked by an agent and grounded against KG facts.
         </p>
         <p class="readings-title">References</p>
         <ul>
-          <li><a href="https://pypi.org/project/pyDatalog">pyDatalog</a> (library)</li>
-          <li><a href="https://sites.google.com/site/pydatalog/Online-datalog-tutorial">pyDatalog Tutorial</a></li>
-          
-         
-        </ul>
-      </div>
-
-      <div class="lecture" id="lecture-09">
-        <h3>Lecture 9+: Beyond Basic Retrieval - Iterative and Multi-Hop Reasoning</h3>
-        <p>
-          Simple Knowledge Graph RAG retrieves facts once and hands them to the model, but complex questions often require
-          multiple retrieval steps as understanding deepens. This lecture explores approaches where agents iteratively query
-          the graph, using initial answers to guide subsequent searches, or plan multi-hop reasoning paths before retrieval.
-          These methods show how agents can navigate knowledge systematically rather than hoping a single retrieval captures
-          everything needed.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Ma, S., Xu, C., Jiang, X., Li, M., Qu, H., Yang, C., Mao, J., &amp; Guo, J. (2025). <em>Think-on-Graph 2.0: Deep and faithful large language model reasoning with knowledge-guided retrieval augmented generation</em>. ICLR 2025. (PDF)</li>
-          <li>Son, J., Seonwoo, Y., Yoon, S., Thorne, J., &amp; Oh, A. (2024). <em>Multi-hop database reasoning with virtual knowledge graph</em>. KaLLM 2024 (pp. 1–11). ACL. (PDF)</li>
-        </ul>
-      </div>
-
-      <div class="lecture" id="lecture-10">
-        <h3>Lecture 10+: Reasoning Capabilities and Limitations in Modern LLMs</h3>
-        <p>
-          Today's frontier models demonstrate impressive reasoning through techniques like chain-of-thought prompting,
-          self-verification, and planning, but they still struggle with tasks requiring precise logic or verifiable facts.
-          This lecture examines what reasoning patterns emerge naturally from language models versus what requires external
-          structure to guarantee correctness. Understanding these boundaries reveals why even sophisticated LLMs need
-          knowledge graphs and rule systems, pointing toward the architectural principles for truly accountable agents.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Mirzadeh et al. (2025). <em>GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models</em>. ICLR 2025. (PDF)</li>
-          <li>Valmeekam et al. (2025). <em>On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks</em>. ICLR 2025. (PDF)</li>
+          <li>pyDatalog documentation and tutorials</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-11">
-        <h3>Lecture 11: Computable Rules and Policies</h3>
+        <h3>Lecture 11: Knowledge Graph-Guided Attention</h3>
         <p>
-          Knowledge graphs represent factual information, but agents require actionable policies to transform facts into
-          decisions. This lecture establishes how rule-based systems bridge knowledge and action, grounded in the domain of
-          medical diagnostic agents. Clinical Practice Guidelines—encoding logic that translates patient symptoms, test
-          results, and medical histories into diagnostic conclusions and treatment recommendations—serve as the illustrative
-          framework. Examining these medical decision protocols reveals fundamental principles for designing rule-based
-          reasoning applicable to any cognitive agent requiring explicit, accountable decision-making.
+          Introduce “neurosymbolic lowering” methods that integrate structured knowledge directly into model computation at inference time (beyond prompt injection).
+          Survey approaches including entity-aware attention, graph-augmented transformers, and constrained attention masks.
+          Emphasize when deep integration helps (faithfulness, long-range structured dependencies) and where it adds complexity (alignment, maintenance, debugging).
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>SNOMED International (2024). <em>SNOMED CT Educational Materials</em>. (External)</li>
-          <li>(2024). <em>Clinical Quality Language (CQL) Specification</em>. (External)</li>
-          <li>(2024). <em>FHIR Clinical Practice Guidelines (CPG) Implementation Guide v2.0.0</em>. (External)</li>
+          <li>Zhai, S., Qi, G., Wang, Y., &amp; Meng, Y. (2025). <em>Knowledge Fusion via Bidirectional Information Aggregation</em>. arXiv preprint arXiv:2507.08704.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-12">
-        <h3>Lecture 12: Representing and Executing Rules for Agent Decisions</h3>
+        <h3>Lecture 12: Knowledge Graph-Guided Attention Implementation</h3>
         <p>
-          Clinical guidelines demonstrate what rule-based reasoning looks like in practice, but agents need computable
-          representations to follow them systematically. This lecture shows how to encode rules that reference knowledge
-          graph facts, evaluate conditions against patient data, and execute recommended actions with explicit justification.
+          Implementation-focused walkthrough of a KG-guided attention pipeline: data preparation, graph-to-model alignment (entity linking / concept IDs),
+          attention modification hooks, debugging strategies, and evaluation. Connect the engineering steps to the conceptual promise: moving from “KG in the prompt”
+          to “KG in the computation.”
+        </p>
+      </div>
+
+      <div class="lecture" id="lecture-13">
+        <h3>Lecture 13: Reasoning Capabilities and Limitations in Modern LLMs</h3>
+        <p>
+          Examine what reasoning patterns emerge naturally from frontier LLMs (via prompting, self-verification, planning) versus what requires external structure to guarantee correctness.
+          Focus on failure modes in precise logic, long-horizon planning, and verifiable factuality. Use these boundaries to motivate hybrid architectures:
+          LLMs for proposal generation and symbolic/graph systems for checking, enforcing constraints, and certifying outputs.
+        </p>
+        <p class="readings-title">Readings</p>
+        <ul>
+          <li>Mirzadeh et al. (2025). <em>GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models</em>. ICLR 2025.</li>
+          <li>Valmeekam et al. (2025). <em>On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks</em>. ICLR 2025.</li>
+        </ul>
+      </div>
+
+      <div class="lecture" id="lecture-14">
+        <h3>Lecture 14: Graph Embeddings and Representation Learning</h3>
+        <p>
+          Introduce embedding-based representations for graphs and how they complement symbolic representations. Cover random-walk methods (DeepWalk/node2vec),
+          knowledge graph embeddings (TransE/RotatE-style families), and practical toolchains such as PyKeen. Discuss how embeddings support retrieval, similarity search,
+          and prediction, and how to maintain accountability (link embeddings back to explicit facts and provenance). We will also take look at ClinVec (embeddings of clinical codes).
+        </p>
+      </div>
+
+      <div class="lecture" id="lecture-15">
+        <h3>Lecture 15: Why Probabilistic Reasoning Isn’t Enough</h3>
+        <p>
+          Language models operate through probability and pattern matching, which generates plausible text but cannot guarantee correctness when hard constraints must never be violated.
+          This lecture introduces constraint enforcement and formal methods as the missing layer for safety, compliance, and mission-critical decision-making.
+          We map “constraint types” (schema constraints, logical constraints, temporal constraints, safety constraints) to enforcement techniques.
+        </p>
+        <p class="readings-title">Readings</p>
+        <ul>
+          <li>Park et al. (2024). <em>Grammar-Aligned Decoding</em>. NeurIPS 2024.</li>
+          <li>Zhang et al. (2024). <em>The Fusion of Large Language Models and Formal Methods for Trustworthy AI Agents: A Roadmap</em>. arXiv:2412.06512.</li>
+        </ul>
+      </div>
+
+      <div class="lecture" id="lecture-16">
+        <h3>Lecture 16: Representing and Executing Rules for Agent Decisions</h3>
+        <p>
+          Clinical guidelines illustrate what rules look like in practice, but accountable agents need computable representations.
+          This lecture shows how to encode rule logic (often as Datalog-like rules) that references knowledge graph facts,
+          evaluates conditions against case data, and produces recommended actions with explicit justifications and traceable evidence.
+          We also discuss lifecycle issues: versioning, provenance, governance, and audit trails.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
@@ -389,166 +390,134 @@ Inference-time, deep integration of knowledge graphs with LLMs</a></li>
         </ul>
       </div>
 
-      <div class="lecture" id="lecture-13">
-        <h3>Lecture 13: Why Probabilistic Reasoning Isn't Enough</h3>
-        <p>
-          Language models operate through probability and pattern matching, which works well for generating plausible text
-          but fails when correctness is mandatory. This lecture shows why hard constraints matter: certain rules must never
-          be violated, specific conditions must always be checked, and safety requirements must be strictly enforced. When
-          decisions have real consequences, neural approximation cannot provide the guarantees that formal verification delivers.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Park et al. (2024). <em>Grammar-Aligned Decoding</em>. NeurIPS 2024. (External)</li>
-          <li>Zhang et al. (2024). <em>The Fusion of Large Language Models and Formal Methods for Trustworthy AI Agents: A Roadmap</em>. arXiv:2412.06512. (External)</li>
-        </ul>
-      </div>
-
-      <div class="lecture" id="lecture-14">
-        <h3>Lecture 14: First-Order Logic and Rule Languages for Agents</h3>
-        <p>
-          Symbolic logic systems like Prolog and Datalog provide the computational foundation for enforcing hard constraints
-          over knowledge graphs. This lecture introduces how these languages express rules, query facts, and derive
-          conclusions with mathematical certainty rather than statistical confidence. By layering symbolic reasoning over
-          neural perception, agents gain the ability to verify compliance, detect violations, and prove that their decisions
-          satisfy mandatory constraints.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Vakharia et al. (2024). <em>ProSLM: A Prolog Synergized Language Model for explainable Domain Specific Knowledge Based Question Answering</em>. NeSy 2024. (External)</li>
-          <li>Kim &amp; Wang (2025). <em>Large Language Models for Interpretable Mental Health Diagnosis</em>. (External)</li>
-        </ul>
-      </div>
-
-      <div class="lecture" id="lecture-15">
-        <h3>Lecture 15: Knowledge Graph Instantiation</h3>
-        <p>
-          Moving from concepts to implementation requires choosing concrete tools and understanding their capabilities.
-          This lecture introduces Neo4j AuraDB as the knowledge graph database, showing how to model domain knowledge as
-          property graphs, load data, and structure facts for symbolic reasoning. We build our first working knowledge
-          graph, and see how entities, relationships, and properties become the factual substrate that logic programs will
-          query and reason over.
-        </p>
-      </div>
-
-      <div class="lecture" id="lecture-16">
-        <h3>Lecture 16: Querying and Extracting Facts</h3>
-        <p>
-          Symbolic reasoning systems need to retrieve facts from the knowledge graph to evaluate rules and derive
-          conclusions. This lecture teaches the Cypher query language for knowledge graphs, that supports logical inference,
-          extracting entity properties, traversing relationships, and pulling subgraphs that match rule premises. We learn
-          how graph queries become the bridge between stored facts and the logic engines that reason over them.
-        </p>
-      </div>
-
       <div class="lecture" id="lecture-17">
-        <h3>Lecture 17: Symbolic Reasoning</h3>
+        <h3>Lecture 17: Integrating Logic and LLMs</h3>
         <p>
-          Logic programming systems, like PyDatalog, express rules and perform inference with mathematical certainty over
-          knowledge graph facts. We introduce the Datalog syntax, showing how to define predicates, write rules, query facts
-          from Memgraph, and derive conclusions through forward and backward chaining. Students implement decision logic in
-          PyDatalog, seeing how declarative rules replace procedural code and provide explicit reasoning traces.
+          Survey loosely coupled and tightly coupled integration patterns between LLMs and logic engines (especially Datalog).
+          Topics include: LLM-as-parser (natural language to rules), LLM-as-proposer (candidate actions) plus logic-as-checker,
+          interactive explanations of rule outputs, and verified reasoning workflows that treat the LLM as an assistant rather than an authority.
         </p>
+        <p class="readings-title">Readings</p>
+        <ul>
+          <li>Baldazzi, T., Bellomarini, L., Ceri, S., Colombo, A., Gentili, A., &amp; Sallinger, E. (2024). <em>“Please, Vadalog, tell me why”: Interactive Explanation of Datalog-based Reasoning</em>. OpenProceedings.</li>
+          <li>Sistla, M., Balakrishnan, G., Rondon, P., Cambronero, J., Tufano, M., &amp; Chandra, S. (2025). <em>Towards Verified Code Reasoning by LLMs</em>. arXiv:2509.26546.</li>
+        </ul>
       </div>
 
       <div class="lecture" id="lecture-18">
-        <h3>Lecture 18: Neurosymbolic Systems with DeepProbLog</h3>
+        <h3>Lecture 18: Building Multi-Agent Systems</h3>
         <p>
-          DeepProbLog extends logic programming by integrating neural networks as probabilistic predicates within logical
-          rules. This lecture shows how to define neural components in DeepProbLog, connect them to symbolic rules, perform
-          probabilistic inference over combined neural-symbolic models, and train end-to-end through gradient descent.
-          Students build systems where neural perception feeds directly into logical reasoning, implementing the neurosymbolic
-          integration that defines the course.
+          Production neurosymbolic applications require orchestrating multiple components: perception agents, retrieval agents, reasoning agents, verification agents,
+          and action agents. This lecture introduces LangGraph as a framework for building and coordinating multi-agent workflows, managing shared state,
+          and integrating external systems (AuraDB, logic engines, tools) into robust pipelines.
         </p>
+        <p class="readings-title">Readings</p>
+        <ul>
+          <li>LangGraph documentation</li>
+          <li>Selected agentic design patterns: state machines, tool-routing, verifier loops, and human-in-the-loop checkpoints (course notes)</li>
+        </ul>
       </div>
 
       <div class="lecture" id="lecture-19">
-        <h3>Lecture 19: Building Multi-Agent Systems</h3>
+        <h3>Lecture 19: Complete System Integration and Deployment</h3>
         <p>
-          Production neurosymbolic applications require orchestrating multiple components: perception agents, reasoning agents,
-          verification agents, and action agents working together. This lecture introduces LangGraph for building and
-          coordinating agent systems, showing how to structure agent workflows, manage state across reasoning steps, and
-          integrate AuraDB and logic engines into agent pipelines.
+          Bring together the implementation stack: AuraDB for knowledge storage, Cypher for retrieval, pyDatalog (or equivalent) for rule execution,
+          embeddings for retrieval and prediction, KG-RAG for grounded generation, and LangGraph for orchestration. Focus on “systems engineering”:
+          observability, debugging, evaluation harnesses, versioning (data, prompts, rules), and deployment patterns suitable for real organizational settings.
         </p>
       </div>
 
       <div class="lecture" id="lecture-20">
-        <h3>Lecture 20: Complete System Integration and Deployment</h3>
+        <h3>Lecture 20: Final Project Workshop: CareTrace</h3>
         <p>
-          We bring together the complete implementation stack: AuraDB for knowledge storage, Cypher for retrieval,
-          PyDatalog for rule-based reasoning, DeepProbLog for neurosymbolic inference, and LangGraph for agent orchestration.
-          This lecture presents complete working systems, debugging strategies for neurosymbolic pipelines, and deployment
-          patterns for production environments.
+          Project-focused lecture after Lecture 19. Translate the full architecture into the CareTrace domain: define the KG schema, data ingestion,
+          rule sets (guidelines + constraints), verification checkpoints, and multi-agent orchestration plan. Emphasize deliverables: traceable decisions,
+          evidence-backed outputs, and clear evaluation criteria (correctness, safety, auditability).
         </p>
       </div>
 
-      <div class="lecture" id="lecture-23">
-        <h3>Lecture 23: Advanced Prompting and Reasoning Strategies</h3>
+      <div class="lecture" id="lecture-21">
+        <h3>Lecture 21: Advanced Prompting and Reasoning Strategies</h3>
         <p>
-          Language models can perform complex reasoning when prompted to show their work through chain-of-thought approaches,
-          and their accuracy improves dramatically when sampling multiple reasoning paths and selecting answers by majority vote
-          through self-consistency. Recent techniques also enable models to verify their own reasoning by generating and
-          checking alternative solutions. These prompting strategies reveal both what pure neural approaches can achieve and
-          where probabilistic reasoning falls short of the guarantees accountable systems require.
+          Study how far “pure neural” methods can go: chain-of-thought prompting (as a technique, not as a guarantee), self-consistency, and chain-of-verification.
+          Frame these as performance boosters that still require symbolic/graph-based checks when correctness must be guaranteed.
+          Discuss failure modes under distribution shift, adversarial cases, and incomplete context.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Wang et al. (2023). <em>Self-Consistency Improves Chain of Thought Reasoning in Language Models</em>. ICLR 2023. (External)</li>
-          <li>Dhuliawala et al. (2024). <em>Chain-of-Verification Reduces Hallucination in Large Language Models</em>. ACL 2024 Findings. (External)</li>
-          <li>Ling et al. (2023). <em>Deductive Verification of Chain-of-Thought Reasoning</em>. NeurIPS 2023. (External)</li>
+          <li>Wang et al. (2023). <em>Self-Consistency Improves Chain of Thought Reasoning in Language Models</em>. ICLR 2023.</li>
+          <li>Dhuliawala et al. (2024). <em>Chain-of-Verification Reduces Hallucination in Large Language Models</em>. ACL 2024 Findings.</li>
+          <li>Ling et al. (2023). <em>Deductive Verification of Chain-of-Thought Reasoning</em>. NeurIPS 2023.</li>
+        </ul>
+      </div>
+
+      <div class="lecture" id="lecture-22">
+        <h3>Lecture 22: Reasoning Models and Reinforcement Learning</h3>
+        <p>
+          Introduce reasoning-optimized models trained with reinforcement learning to perform extended deliberation and allocate more compute to harder problems.
+          Use this to clarify what training can improve (search, planning heuristics, self-correction) and what still benefits from symbolic verification
+          (hard constraints, compliance rules, formal correctness). Position RL-trained reasoning as complementary to, not a replacement for, explicit constraints and provable checks.
+        </p>
+        <p class="readings-title">Readings</p>
+        <ul>
+          <li>DeepSeek-AI (2025). <em>DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</em>.</li>
+          <li>Li, S. S., Mun, J., Brahman, F., Ilgen, J., Tsvetkov, Y., &amp; Sap, M. (2025). <em>ALFA: Aligning LLMs to Ask Good Questions — A Case Study in Clinical Reasoning</em>.</li>
+        </ul>
+      </div>
+
+      <div class="lecture" id="lecture-23">
+        <h3>Lecture 23: AlphaProof and AlphaGeometry: Neurosymbolic Theorem Proving</h3>
+        <p>
+          Study neurosymbolic theorem proving as a canonical example of accountability: neural components propose and guide search, symbolic components verify every step.
+          Cover how formalization (Lean), search (AlphaZero-style), and proof checking create guarantees that are unattainable with probabilistic text generation alone.
+          Translate the lesson back to medical and compliance agents: constrained action spaces, verifiable intermediate steps, and auditable proof traces.
+        </p>
+        <p class="readings-title">Readings</p>
+        <ul>
+          <li>Hubert et al. (2025). <em>Olympiad-level formal mathematical reasoning with reinforcement learning (AlphaProof)</em>. Nature.</li>
+          <li>Trinh et al. (2024). <em>AlphaGeometry: Solving olympiad geometry without human demonstrations</em>. Nature 630, 1042–1049.</li>
+          <li>Li et al. (2025). <em>Proving Olympiad Inequalities by Synergizing LLMs and Symbolic Reasoning</em>. ICLR 2025.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-24">
-        <h3>Lecture 24: Reasoning Models and Reinforcement Learning</h3>
+        <h3>Lecture 24: Practical Neurosymbolic Frameworks: Translating Language to Logic</h3>
         <p>
-          The latest generation of reasoning models like OpenAI's o1 and DeepSeek's R1 are explicitly trained via reinforcement
-          learning to engage in extended reasoning processes, learning to allocate computational resources dynamically and spend
-          more time on harder problems. These models develop reasoning strategies through trial and error rather than pure
-          next-token prediction. By examining the ceiling of what pure neural methods can achieve, we see why symbolic
-          verification remains essential for domains requiring absolute correctness rather than high probability.
+          Survey practical systems that combine LLMs with symbolic solvers by translating natural language into formal logic and offloading verification to a solver/prover.
+          Focus on the engineering questions: what gets translated, how ambiguity is handled, how explanations are generated, and how solver results are fed back into the agent loop.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>DeepSeek-AI (2025). <em>DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</em>. (External)</li>
-          <li>Li, S. S., Mun, J., Brahman, F., Ilgen, J., Tsvetkov, Y., &amp; Sap, M. (2025). <em>ALFA: Aligning LLMs to Ask Good Questions — A Case Study in Clinical Reasoning</em>. (External)</li>
+          <li>Olausson et al. (2023). <em>LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers</em>. EMNLP 2023.</li>
+          <li>Pan et al. (2023). <em>Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning</em>. EMNLP 2023 Findings.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-25">
-        <h3>Lecture 25: AlphaProof and AlphaGeometry - Neurosymbolic Theorem Proving</h3>
+        <h3>Lecture 25: Graph-Based Reasoning as Search: Graph of Thoughts and Think-on-Graph</h3>
         <p>
-          DeepMind's AlphaProof and AlphaGeometry 2 achieved silver medal performance at the 2024 International Mathematical
-          Olympiad by explicitly combining neural and symbolic components. AlphaProof translates natural language problems into
-          formal Lean proofs using a fine-tuned Gemini model, then searches for solutions using AlphaZero-style reinforcement
-          learning with symbolic verification at every step. These systems demonstrate that neurosymbolic integration is not
-          just theoretically appealing but practically necessary for tasks requiring mathematical rigor and accountability.
+          Treat reasoning as explicit search over a graph of intermediate states, using the LLM for proposal/guidance and graph structure for control, pruning, and traceability.
+          Discuss how graph-structured reasoning supports tool use, multi-step planning, and more transparent failure diagnosis than monolithic prompting.
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Hubert et al. (2025). <em>Olympiad-level formal mathematical reasoning with reinforcement learning (AlphaProof)</em>. Nature. (External)</li>
-          <li>Trinh et al. (2024). <em>AlphaGeometry: Solving olympiad geometry without human demonstrations</em>. Nature 630, 1042–1049. (External)</li>
-          <li>Li et al. (2025). <em>Proving Olympiad Inequalities by Synergizing LLMs and Symbolic Reasoning</em>. ICLR 2025. (External)</li>
+          <li>Besta et al. (2024). <em>Graph of Thoughts: Solving elaborate problems with large language models</em>. PVLDB 17(10), 2411–2425.</li>
+          <li>Sun et al. (2024). <em>Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph</em>. ICLR 2024.</li>
         </ul>
       </div>
 
       <div class="lecture" id="lecture-26">
-        <h3>Lecture 26: Practical Neurosymbolic Frameworks and Graph-Based Reasoning</h3>
+        <h3>Lecture 26: Neurosymbolic Program Synthesis and Verified Reasoning Workflows</h3>
         <p>
-          Practical neurosymbolic systems like LINC and Logic-LM integrate language models with symbolic solvers by translating
-          natural language to formal logic and offloading verification to established theorem provers. Graph-based reasoning
-          approaches like Graph of Thoughts and Think-on-Graph structure the search through solution spaces as explicit graph
-          traversal, combining neural heuristics with symbolic constraints. Together these frameworks demonstrate the core
-          neurosymbolic principle: neural networks provide perception and guidance while symbolic systems deliver the verified
-          reasoning that accountable medical AI requires.
+          Close the course with frameworks that explicitly target robustness and interpretability via program synthesis and verification-style loops.
+          Emphasize the architectural pattern: LLM proposes structured artifacts (programs, rules, plans), symbolic systems validate them,
+          and the agent iterates until constraints are satisfied. This becomes a reusable recipe for high-consequence domains
+          (clinical decision support, compliance, safety-critical operations).
         </p>
         <p class="readings-title">Readings</p>
         <ul>
-          <li>Olausson et al. (2023). <em>LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers</em>. EMNLP 2023. (External)</li>
-          <li>Pan et al. (2023). <em>Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning</em>. EMNLP 2023 Findings. (External)</li>
-          <li>Ganguly et al. (2024). <em>PROOF OF THOUGHT: Neurosymbolic Program Synthesis allows Robust and Interpretable Reasoning</em>. NeurIPS’24 Workshop on System-2 Reasoning. (External)</li>
-          <li>Besta et al. (2024). <em>Graph of Thoughts: Solving elaborate problems with large language models</em>. PVLDB 17(10), 2411–2425. (External)</li>
-          <li>Sun et al. (2024). <em>Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph</em>. ICLR 2024. (External)</li>
+          <li>Ganguly et al. (2024). <em>Proof of Thought: Neurosymbolic Program Synthesis Allows Robust and Interpretable Reasoning</em>. NeurIPS 2024 Workshop on System-2 Reasoning.</li>
+          <li>Sistla et al. (2025). <em>Towards Verified Code Reasoning by LLMs</em>. arXiv:2509.26546.</li>
         </ul>
       </div>
 

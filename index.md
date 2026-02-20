@@ -349,6 +349,7 @@ layout: null
         <ul>
           <li>Mirzadeh et al. (2025). <em>GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models</em>. ICLR 2025.</li>
           <li>Valmeekam et al. (2025). <em>On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks</em>. ICLR 2025.</li>
+          <li>Kambhampati, S., Stechly, K., & Valmeekam, K. (2025). <em>(How) Do reasoning models reason?.</em> Annals of the New York Academy of Sciences, 1547(1), 33-40.</li>
         </ul>
       </div>
 

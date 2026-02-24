@@ -174,6 +174,7 @@ layout: null
         <li><strong>Lecture 10:</strong> <i>(Feb 9)</i> <a href="https://github.com/datasciencey/datasci290-code/blob/main/Lecture%20Notebooks/Lecture%209:%20pyDatalog/Datalog%20Fundamentals.ipynb">Datalog Fundamentals (pyDatalog Notebook)</a></li>
         <li><strong>Lecture 11:</strong> <i>(Feb 11)</i> <a href="slides/DATASCI290_Lecture11.pdf">Neurosymbolic lowering methods: inference-time, deep integration of knowledge graphs with LLMs</a></li>
         <li><strong>Lecture 12:</strong> <i>(Feb 18)</i> <a href="https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdatasciencey%2Fdatasci290-code&branch=main&urlpath=lab%2Ftree%2Fdatasci290-code%2FCode+Scaffolds%2FKG+LLM+Fusion%2FKnowledge+Fusion+by+Rewiring+Attention.ipynb">Knowledge Fusion by Rewiring Attention: Implementation (Teaching Notebook)</a> and the accompanying <a href="slides/DATASCI290_Lecture12.pdf">code explanation slides.</a> </li>
+        <li><strong>Lecture 13:</strong> <i>(Feb 23)</i> <a href="slides/DATASCI290_Lecture13.pdf">Model Reasoning: Capabilities, Limitations, Reasonable Expectations</a></li>
       </ul>
     </section>
 

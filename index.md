@@ -177,6 +177,8 @@ layout: null
         <li><strong>Lecture 13:</strong> <i>(Feb 23)</i> <a href="slides/DATASCI290_Lecture13.pdf">Model Reasoning: Capabilities, Limitations, Reasonable Expectations</a></li>
         <li><strong>Lecture 14:</strong> <i>(Feb 25)</i> <a href="slides/DATASCI290_Lecture14.pdf">(How) Do Models Reason?</a></li>
         <li><strong>Lecture 15:</strong> <i>(Mar 2)</i> <a href="slides/DATASCI290_Lecture15.pdf">Graph Embeddings: Bridging Structured Knowledge and Neural Space</a>. Please also see the <a href="https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdatasciencey%2Fdatasci290-code&branch=main&urlpath=lab%2Ftree%2Fdatasci290-code%2FLecture+Notebooks%2FLecture+15%2FNode2Vec.ipynb">Node2Vec</a> and <a href="https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdatasciencey%2Fdatasci290-code&branch=main&urlpath=lab%2Ftree%2Fdatasci290-code%2FLecture+Notebooks%2FLecture+15%2FTransE_PyKeen.ipynb">TransE (in PyKEEN)</a> illustration notebooks </li>       </ul>
+        <li><strong>Lecture 16:</strong> <i>(Mar 4)</i> <a href="slides/DATASCI290_Lecture16.pdf">FROM Clinical Guidelines TO Computable Logics FOR Neurosymbolic AI</a></li>
+        <li><strong>Lecture 17:</strong> <i>(Mar 9)</i> <a href="slides/DATASCI290_Lecture17.pdf">LLMs, LRMs, and Reasoning: In the Domain of Medical AI</a></li>
     </section>
 
     <section class="section" id="lectures">

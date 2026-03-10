@@ -364,166 +364,168 @@ layout: null
         </p>
       </div>
 
-      <div class="lecture" id="lecture-15">
-        <h3>Lecture 15: Why Probabilistic Reasoning Isn’t Enough</h3>
-        <p>
-          Language models operate through probability and pattern matching, which generates plausible text but cannot guarantee correctness when hard constraints must never be violated.
-          This lecture introduces constraint enforcement and formal methods as the missing layer for safety, compliance, and mission-critical decision-making.
-          We map “constraint types” (schema constraints, logical constraints, temporal constraints, safety constraints) to enforcement techniques.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Park et al. (2024). <em>Grammar-Aligned Decoding</em>. NeurIPS 2024.</li>
-          <li>Zhang et al. (2024). <em>The Fusion of Large Language Models and Formal Methods for Trustworthy AI Agents: A Roadmap</em>. arXiv:2412.06512.</li>
-        </ul>
-      </div>
+<!-- Lecture 15 -->
+<div class="lecture" id="lecture-15">
+  <h3>Lecture 15: Graph Embeddings: Bridging Structured Knowledge and Neural Space</h3>
+  <p>
+    Statistical learning methods capture correlations in data but struggle to represent structured relationships,
+    constraints, and explicit reasoning chains required in domains like medicine. This lecture revisits graph
+    embeddings as a bridge between symbolic knowledge graphs and neural models. We review Node2Vec for learning
+    node representations via biased random walks and TransE for modeling relations as vector translations in
+    knowledge graphs, with a brief PyKEEN code illustration. The lecture also highlights the limitations of
+    embeddings for representing logical rules and decision constraints, motivating the need for neurosymbolic
+    approaches.
+  </p>
+  <p class="readings-title">Readings</p>
+  <ul>
+    <li>Grover, A., &amp; Leskovec, J. (2016). <em>node2vec: Scalable feature learning for networks</em>. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.</li>
+    <li>Bordes, A., Usunier, N., Garcia-Duran, A., Weston, J., &amp; Yakhnenko, O. (2013). <em>Translating embeddings for modeling multi-relational data</em>. Advances in Neural Information Processing Systems.</li>
+  </ul>
+</div>
 
-      <div class="lecture" id="lecture-16">
-        <h3>Lecture 16: Representing and Executing Rules for Agent Decisions</h3>
-        <p>
-          Clinical guidelines illustrate what rules look like in practice, but accountable agents need computable representations.
-          This lecture shows how to encode rule logic (often as Datalog-like rules) that references knowledge graph facts,
-          evaluates conditions against case data, and produces recommended actions with explicit justifications and traceable evidence.
-          We also discuss lifecycle issues: versioning, provenance, governance, and audit trails.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Boxwala, A. A., et al. (2011). <em>A multi-layered framework for disseminating knowledge for computer-based decision support</em>. Journal of the American Medical Informatics Association, 18(1).</li>
-          <li>Peleg, M. (2013). <em>Computer-interpretable clinical guidelines: A methodological review</em>. Journal of Biomedical Informatics, 46(4), 744–763.</li>
-          <li>Sutton, R. T., et al. (2020). <em>An overview of clinical decision support systems: benefits, risks, and strategies for success</em>. npj Digital Medicine, 3, 17.</li>
-        </ul>
-      </div>
+<!-- Lecture 16 -->
+<div class="lecture" id="lecture-16">
+  <h3>Lecture 16: From Clinical Guidelines to Computable Decision Logic for Neurosymbolic AI</h3>
+  <p>
+    Clinical Practice Guidelines (CPGs) encode evidence-based medical recommendations but are typically written
+    in narrative form and difficult to operationalize computationally. This lecture introduces approaches for
+    converting guidelines into structured decision logic that machines can reason over. We examine Decision
+    Knowledge Graphs and the Vadalog reasoning framework as two different approaches for representing guideline
+    knowledge and patient pathways. The lecture highlights how neurosymbolic systems can combine knowledge graphs,
+    rules, and machine learning to support explainable clinical decision support.
+  </p>
+  <p class="readings-title">Readings</p>
+  <ul>
+    <li>Kandula, Vasudhan Varma, &amp; Bhattacharyya, Pushpak. (2023). <em>Decision knowledge graphs: Construction of and usage in question answering for clinical practice guidelines</em>.</li>
+    <li>Dwyer, Owen P., Baldazzi, Teodoro, Davies, Jim, Sallinger, Emanuel, &amp; Vlad, Adriano. (2023). <em>Reasoning over health records with Vadalog: a rule-based approach to patient pathways</em>.</li>
+  </ul>
+</div>
 
-      <div class="lecture" id="lecture-17">
-        <h3>Lecture 17: Integrating Logic and LLMs</h3>
-        <p>
-          Survey loosely coupled and tightly coupled integration patterns between LLMs and logic engines (especially Datalog).
-          Topics include: LLM-as-parser (natural language to rules), LLM-as-proposer (candidate actions) plus logic-as-checker,
-          interactive explanations of rule outputs, and verified reasoning workflows that treat the LLM as an assistant rather than an authority.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Baldazzi, T., Bellomarini, L., Ceri, S., Colombo, A., Gentili, A., &amp; Sallinger, E. (2024). <em>“Please, Vadalog, tell me why”: Interactive Explanation of Datalog-based Reasoning</em>. OpenProceedings.</li>
-          <li>Sistla, M., Balakrishnan, G., Rondon, P., Cambronero, J., Tufano, M., &amp; Chandra, S. (2025). <em>Towards Verified Code Reasoning by LLMs</em>. arXiv:2509.26546.</li>
-        </ul>
-      </div>
+<!-- Lecture 17 -->
+<div class="lecture" id="lecture-17">
+  <h3>Lecture 17: Medical Reasoning</h3>
+  <p>
+    Medical reasoning requires structured diagnostic thinking, verification of intermediate conclusions, and the
+    ability to justify decisions. This lecture examines how modern LLM reasoning techniques, such as chain-of-thought,
+    intermediate reasoning tokens, and verification steps, attempt to approximate these processes. We analyze the
+    reasoning behavior of medical LLMs using the “Critique of Impure Reason” framework and examine how systems like
+    AMIE incorporate structured evaluation loops for diagnostic dialogue. The lecture also introduces the concept of
+    verifiable reasoning tasks designed to train LLMs to produce reasoning steps that can be checked.
+  </p>
+  <p class="readings-title">Readings</p>
+  <ul>
+    <li>Sim, Shamus Zi Yang, &amp; Chen, Tyrone. (2025). <em>Critique of impure reason: Unveiling the reasoning behaviour of medical large language models</em>. eLife.</li>
+    <li>Tu, Tao, Schaekermann, Mike, Palepu, Anil, Saab, Khaled, Freyberg, Jan, Tanno, Ryutaro, Wang, Amy, et al. (2025). <em>Towards conversational diagnostic artificial intelligence</em>. Nature.</li>
+    <li>Chen, Junying, Cai, Zhenyang, Ji, Ke, Wang, Xidong, Liu, Wanlong, Wang, Rongsheng, &amp; Wang, Benyou. (2025). <em>Towards Medical Complex Reasoning with LLMs through Medical Verifiable Problems</em>. Findings of ACL.</li>
+  </ul>
+</div>
 
-      <div class="lecture" id="lecture-18">
-        <h3>Lecture 18: Building Multi-Agent Systems</h3>
-        <p>
-          Production neurosymbolic applications require orchestrating multiple components: perception agents, retrieval agents, reasoning agents, verification agents,
-          and action agents. This lecture introduces LangGraph as a framework for building and coordinating multi-agent workflows, managing shared state,
-          and integrating external systems (AuraDB, logic engines, tools) into robust pipelines.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>LangGraph documentation</li>
-          <li>Selected agentic design patterns: state machines, tool-routing, verifier loops, and human-in-the-loop checkpoints (course notes)</li>
-        </ul>
-      </div>
+<!-- Lecture 18 -->
+<div class="lecture" id="lecture-18">
+  <h3>Lecture 18: Integrating Logic and LLMs</h3>
+  <p>
+    This lecture surveys emerging approaches for integrating symbolic logic with large language models to improve
+    reasoning reliability. Topics include graph-based representations of reasoning chains, synthetic logic training
+    corpora for improving logical consistency, and logic-augmented generation frameworks that combine symbolic
+    reasoning structures with neural text generation. The goal is to combine the expressive capabilities of LLMs
+    with the correctness guarantees of formal reasoning systems.
+  </p>
+  <p class="readings-title">Readings</p>
+  <ul>
+    <li>Alotaibi, F., Kulkarni, A., &amp; Zhou, D. (2024). <em>Graph of logic: Enhancing LLM reasoning with graphs and symbolic logic</em>. IEEE BigData.</li>
+    <li>Morishita, T., Morio, G., Yamaguchi, A., &amp; Sogawa, Y. (2024). <em>Enhancing reasoning capabilities of LLMs via principled synthetic logic corpus</em>. NeurIPS.</li>
+    <li>Xiao, Yilin, Zhou, Chuang, Zhang, Yujing, Zhang, Qinggang, Dong, Su, Chen, Shengyuan, Yang, Chang, &amp; Huang, Xiao. (2025). <em>LAG: Logic-augmented generation from a Cartesian perspective</em>.</li>
+  </ul>
+</div>
 
-      <div class="lecture" id="lecture-19">
-        <h3>Lecture 19: Complete System Integration and Deployment</h3>
-        <p>
-          Bring together the implementation stack: AuraDB for knowledge storage, Cypher for retrieval, pyDatalog (or equivalent) for rule execution,
-          embeddings for retrieval and prediction, KG-RAG for grounded generation, and LangGraph for orchestration. Focus on “systems engineering”:
-          observability, debugging, evaluation harnesses, versioning (data, prompts, rules), and deployment patterns suitable for real organizational settings.
-        </p>
-      </div>
+<!-- Lecture 19 -->
+<div class="lecture" id="lecture-19">
+  <h3>Lecture 19: Neural Proposes, Symbolic Disposes: The Science of Diagnostic Reasoning for CareTrace</h3>
+  <p>
+    This lecture presents the architectural principle underlying CareTrace: neural models generate candidate interpretations
+    and diagnostic hypotheses, while symbolic mechanisms determine which conclusions are justified. We examine diagnostic
+    reasoning as a structured process involving abductive hypothesis generation, inductive pattern recognition, deductive
+    rule enforcement, and sequential information gathering under uncertainty. The lecture focuses on defining the boundary
+    between hypothesis proposal and decision authorization, ensuring that diagnostic conclusions are supported by evidence
+    and consistent with clinical constraints. The resulting reasoning pipeline enables clinical AI systems whose outputs are
+    verifiable, traceable, and safe for decision support.
+  </p>
+</div>
 
-      <div class="lecture" id="lecture-20">
-        <h3>Lecture 20: Final Project Workshop: CareTrace</h3>
-        <p>
-          Project-focused lecture after Lecture 19. Translate the full architecture into the CareTrace domain: define the KG schema, data ingestion,
-          rule sets (guidelines + constraints), verification checkpoints, and multi-agent orchestration plan. Emphasize deliverables: traceable decisions,
-          evidence-backed outputs, and clear evaluation criteria (correctness, safety, auditability).
-        </p>
-      </div>
+<!-- Lecture 20 -->
+<div class="lecture" id="lecture-20">
+  <h3>Lecture 20: Putting It All Together: Designing Neurosymbolic Systems</h3>
+  <p>
+    This lecture synthesizes the major components developed throughout the course into a coherent neurosymbolic architecture.
+    We revisit the progression from System-1 statistical models to System-2 symbolic reasoning, examining how knowledge graphs,
+    KG-RAG pipelines, rule-based reasoning (Datalog), and logic-augmented LLM workflows can be combined in a single system.
+    We also connect graph embeddings, large reasoning models, and clinical knowledge sources such as clinical practice guidelines
+    to show how learning, knowledge representation, and formal reasoning interact. The lecture concludes with design principles
+    for building trustworthy neurosymbolic systems that integrate neural proposal mechanisms with symbolic verification and
+    structured knowledge.
+  </p>
+</div>
 
-      <div class="lecture" id="lecture-21">
-        <h3>Lecture 21: Advanced Prompting and Reasoning Strategies</h3>
-        <p>
-          Study how far “pure neural” methods can go: chain-of-thought prompting (as a technique, not as a guarantee), self-consistency, and chain-of-verification.
-          Frame these as performance boosters that still require symbolic/graph-based checks when correctness must be guaranteed.
-          Discuss failure modes under distribution shift, adversarial cases, and incomplete context.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Wang et al. (2023). <em>Self-Consistency Improves Chain of Thought Reasoning in Language Models</em>. ICLR 2023.</li>
-          <li>Dhuliawala et al. (2024). <em>Chain-of-Verification Reduces Hallucination in Large Language Models</em>. ACL 2024 Findings.</li>
-          <li>Ling et al. (2023). <em>Deductive Verification of Chain-of-Thought Reasoning</em>. NeurIPS 2023.</li>
-        </ul>
-      </div>
+<!-- Lecture 21 -->
+<div class="lecture" id="lecture-21">
+  <h3>Lecture 21: Building Multi-Agent Systems</h3>
+  <p>
+    Production neurosymbolic systems typically require coordination between multiple specialized components. This lecture
+    introduces the architecture of multi-agent AI systems composed of perception agents, retrieval agents, reasoning agents,
+    verification agents, and action agents. We examine LangGraph as a framework for orchestrating these agents, maintaining
+    shared state, and integrating external systems such as knowledge graphs and reasoning engines into robust pipelines.
+  </p>
+  <p class="readings-title">Readings</p>
+  <ul>
+    <li>LangGraph documentation</li>
+  </ul>
+</div>
 
-      <div class="lecture" id="lecture-22">
-        <h3>Lecture 22: Reasoning Models and Reinforcement Learning</h3>
-        <p>
-          Introduce reasoning-optimized models trained with reinforcement learning to perform extended deliberation and allocate more compute to harder problems.
-          Use this to clarify what training can improve (search, planning heuristics, self-correction) and what still benefits from symbolic verification
-          (hard constraints, compliance rules, formal correctness). Position RL-trained reasoning as complementary to, not a replacement for, explicit constraints and provable checks.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>DeepSeek-AI (2025). <em>DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</em>.</li>
-          <li>Li, S. S., Mun, J., Brahman, F., Ilgen, J., Tsvetkov, Y., &amp; Sap, M. (2025). <em>ALFA: Aligning LLMs to Ask Good Questions — A Case Study in Clinical Reasoning</em>.</li>
-        </ul>
-      </div>
+<!-- Lecture 22 -->
+<div class="lecture" id="lecture-22">
+  <h3>Lecture 22: Final Project Workshop - CareTrace</h3>
+  <p>
+    This project-focused lecture translates the full neurosymbolic architecture into the CareTrace clinical reasoning system.
+    Students will define the knowledge graph schema, outline data ingestion pipelines, identify guideline rules and reasoning
+    constraints, and design a multi-agent workflow for decision generation and verification. The lecture also discusses
+    evaluation criteria including correctness, safety, traceability, and evidence-backed outputs.
+  </p>
+</div>
 
-      <div class="lecture" id="lecture-23">
-        <h3>Lecture 23: AlphaProof and AlphaGeometry: Neurosymbolic Theorem Proving</h3>
-        <p>
-          Study neurosymbolic theorem proving as a canonical example of accountability: neural components propose and guide search, symbolic components verify every step.
-          Cover how formalization (Lean), search (AlphaZero-style), and proof checking create guarantees that are unattainable with probabilistic text generation alone.
-          Translate the lesson back to medical and compliance agents: constrained action spaces, verifiable intermediate steps, and auditable proof traces.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Hubert et al. (2025). <em>Olympiad-level formal mathematical reasoning with reinforcement learning (AlphaProof)</em>. Nature.</li>
-          <li>Trinh et al. (2024). <em>AlphaGeometry: Solving olympiad geometry without human demonstrations</em>. Nature 630, 1042–1049.</li>
-          <li>Li et al. (2025). <em>Proving Olympiad Inequalities by Synergizing LLMs and Symbolic Reasoning</em>. ICLR 2025.</li>
-        </ul>
-      </div>
+<!-- Lecture 23 -->
+<div class="lecture" id="lecture-23">
+  <h3>Lecture 23: CareTrace Q&amp;A</h3>
+  <p>
+    Open discussion session for the CareTrace project. Students may ask questions about system architecture, knowledge graph
+    design, rule modeling, LLM integration, evaluation strategies, and implementation challenges. The goal is to help teams
+    refine their project plans and ensure that systems demonstrate clear reasoning, transparency, and verifiable outputs.
+  </p>
+</div>
 
-      <div class="lecture" id="lecture-24">
-        <h3>Lecture 24: Practical Neurosymbolic Frameworks: Translating Language to Logic</h3>
-        <p>
-          Survey practical systems that combine LLMs with symbolic solvers by translating natural language into formal logic and offloading verification to a solver/prover.
-          Focus on the engineering questions: what gets translated, how ambiguity is handled, how explanations are generated, and how solver results are fed back into the agent loop.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Olausson et al. (2023). <em>LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers</em>. EMNLP 2023.</li>
-          <li>Pan et al. (2023). <em>Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning</em>. EMNLP 2023 Findings.</li>
-        </ul>
-      </div>
-
-      <div class="lecture" id="lecture-25">
-        <h3>Lecture 25: Graph-Based Reasoning as Search: Graph of Thoughts and Think-on-Graph</h3>
-        <p>
-          Treat reasoning as explicit search over a graph of intermediate states, using the LLM for proposal/guidance and graph structure for control, pruning, and traceability.
-          Discuss how graph-structured reasoning supports tool use, multi-step planning, and more transparent failure diagnosis than monolithic prompting.
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Besta et al. (2024). <em>Graph of Thoughts: Solving elaborate problems with large language models</em>. PVLDB 17(10), 2411–2425.</li>
-          <li>Sun et al. (2024). <em>Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph</em>. ICLR 2024.</li>
-        </ul>
-      </div>
-
-      <div class="lecture" id="lecture-26">
-        <h3>Lecture 26: Neurosymbolic Program Synthesis and Verified Reasoning Workflows</h3>
-        <p>
-          Close the course with frameworks that explicitly target robustness and interpretability via program synthesis and verification-style loops.
-          Emphasize the architectural pattern: LLM proposes structured artifacts (programs, rules, plans), symbolic systems validate them,
-          and the agent iterates until constraints are satisfied. This becomes a reusable recipe for high-consequence domains
-          (clinical decision support, compliance, safety-critical operations).
-        </p>
-        <p class="readings-title">Readings</p>
-        <ul>
-          <li>Ganguly et al. (2024). <em>Proof of Thought: Neurosymbolic Program Synthesis Allows Robust and Interpretable Reasoning</em>. NeurIPS 2024 Workshop on System-2 Reasoning.</li>
-          <li>Sistla et al. (2025). <em>Towards Verified Code Reasoning by LLMs</em>. arXiv:2509.26546.</li>
-        </ul>
-      </div>
+<!-- Lecture 24 -->
+<div class="lecture" id="lecture-24">
+  <h3>Lecture 24: Guidance on Paper Presentations</h3>
+  <p>
+    This lecture provides guidance on how to critically read and present research papers in neurosymbolic AI and reasoning
+    systems. Topics include identifying the research problem, understanding experimental methodology, interpreting evaluation
+    metrics, and explaining technical contributions clearly. Students will also discuss how to connect individual papers to
+    broader themes in reasoning, verification, and trustworthy AI.
+  </p>
+  <p class="readings-title">Readings</p>
+  <ul>
+    <li>Wang et al. (2023). <em>Self-Consistency Improves Chain of Thought Reasoning in Language Models</em>. ICLR 2023.</li>
+    <li>Dhuliawala et al. (2024). <em>Chain-of-Verification Reduces Hallucination in Large Language Models</em>. ACL 2024 Findings.</li>
+    <li>Ganguly et al. (2024). <em>Proof of Thought: Neurosymbolic Program Synthesis Allows Robust and Interpretable Reasoning</em>. NeurIPS 2024 Workshop on System-2 Reasoning.</li>
+    <li>Besta et al. (2024). <em>Graph of Thoughts: Solving elaborate problems with large language models</em>. PVLDB 17(10), 2411–2425.</li>
+    <li>Sun et al. (2024). <em>Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph</em>. ICLR 2024.</li>
+    <li>Hubert et al. (2025). <em>Olympiad-level formal mathematical reasoning with reinforcement learning (AlphaProof)</em>. Nature.</li>
+    <li>Trinh et al. (2024). <em>AlphaGeometry: Solving olympiad geometry without human demonstrations</em>. Nature 630, 1042–1049.</li>
+    <li>Li et al. (2025). <em>Proving Olympiad Inequalities by Synergizing LLMs and Symbolic Reasoning</em>. ICLR 2025.</li>
+    <li>Balcan, Maria-Florina, Blum, Avrim, Li, Zhiyuan, &amp; Sharma, Dravyansh. (2025). <em>On learning verifiers for chain-of-thought reasoning</em>. arXiv preprint arXiv:2505.22650.</li>
+    <li>Sikka, Varin, &amp; Sikka, Vishal. (2025). <em>Hallucination stations: On some basic limitations of transformer-based language models</em>. arXiv preprint arXiv:2507.07505.</li>
+    <li>Domingos, P. (2025). <em>Tensor Logic: The Language of AI</em>. arXiv preprint arXiv:2510.12269.</li>
+  </ul>
+</div>  
 
     </section>
 
